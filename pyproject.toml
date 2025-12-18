@@ -11,7 +11,7 @@ dependencies = [
     "bibtexparser",
     "bs4",
     "cairosvg",
-    "hatchling>=1.28.0",
+    "hatchling",
     "langdetect",
     "mkdocs",
     "mkdocs-material",

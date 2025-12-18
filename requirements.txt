@@ -1,0 +1,12 @@
+bibtexparser
+bs4
+cairosvg
+hatchling
+langdetect
+mkdocs
+mkdocs-material
+mkdocs-open-in-new-tab
+pillow
+pymdown-extensions
+rendercv
+titlecase
