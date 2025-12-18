@@ -1,0 +1,8 @@
+/* Hide scrollbars in navigation panels */
+.md-sidebar__scrollwrap::-webkit-scrollbar {
+  display: none;
+}
+.md-sidebar__scrollwrap {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}

@@ -1,0 +1,823 @@
+// listen for rlt authentication events and pass them to children of this document.
+( function() {
+	var currentToken;
+	var parentOrigin;
+	var iframeOrigins;
+	var registeredIframes = [];
+	var initializationListeners = [];
+	var hasBeenInitialized = false;
+	var RLT_KEY = 'jetpack:wpcomRLT';
+
+	// should we inject RLT into this iframe?
+	function rltShouldAuthorizeIframe( frameOrigin ) {
+		if ( ! Array.isArray( iframeOrigins ) ) {
+			return false;
+		}
+		return iframeOrigins.includes( frameOrigin );
+	}
+
+	function rltInvalidateWindowToken( token, target, origin ) {
+		if ( target && typeof target.postMessage === 'function' ) {
+			try {
+				target.postMessage( JSON.stringify( {
+					type: 'rltMessage',
+					data: {
+						event: 'invalidate',
+						token: token,
+						sourceOrigin: window.location.origin,
+					},
+				} ), origin );
+			} catch ( err ) {
+				return;
+			}
+		}
+	}
+
+	/**
+	 * PUBLIC METHODS
+	 */
+	window.rltInvalidateToken = function( token, sourceOrigin ) {
+		// invalidate in current context
+		if ( token === currentToken ) {
+			currentToken = null;
+		}
+
+		// remove from localstorage, but only if in a top level window, not iframe
+		try {
+			if ( window.location === window.parent.location && window.localStorage ) {
+				if ( window.localStorage.getItem(RLT_KEY) === token ) {
+					window.localStorage.removeItem(RLT_KEY);
+				}
+			}
+		} catch( e ) {
+			console.info("localstorage access for invalidate denied - probably blocked third-party access", window.location.href);
+		}
+
+		// invalidate in registered iframes
+		for ( const [ frameOrigin, frameWindow ] of registeredIframes ) {
+			if ( frameOrigin !== sourceOrigin ) {
+				rltInvalidateWindowToken( token, frameWindow, frameOrigin );
+			}
+		}
+
+		// invalidate in parent
+		if ( parentOrigin && parentOrigin !== sourceOrigin && window.parent ) {
+			rltInvalidateWindowToken( token, window.parent, parentOrigin );
+		}
+	}
+
+	window.rltInjectToken = function( token, target, origin ) {
+		if ( target && typeof target.postMessage === 'function' ) {
+			try {
+				target.postMessage( JSON.stringify( {
+					type: 'loginMessage',
+					data: {
+						event: 'login',
+						success: true,
+						type: 'rlt',
+						token: token,
+						sourceOrigin: window.location.origin,
+					},
+				} ), origin );
+			} catch ( err ) {
+				return;
+			}
+		}
+	};
+
+	window.rltIsAuthenticated = function() {
+		return !! currentToken;
+	};
+
+	window.rltGetToken = function() {
+		return currentToken;
+	};
+
+	window.rltAddInitializationListener = function( listener ) {
+		// if RLT is already initialized, call the listener immediately
+		if ( hasBeenInitialized ) {
+			listener( currentToken );
+		} else {
+			initializationListeners.push( listener );
+		}
+	};
+
+	// store the token in localStorage
+	window.rltStoreToken = function( token ) {
+		currentToken = token;
+		try {
+			if ( window.location === window.parent.location && window.localStorage ) {
+				window.localStorage.setItem( RLT_KEY, token );
+			}
+		} catch( e ) {
+			console.info("localstorage access denied - probably blocked third-party access", window.location.href);
+		}
+	}
+
+	window.rltInitialize = function( config ) {
+		if ( ! config || typeof window.postMessage !== 'function' ) {
+			return;
+		}
+
+		currentToken  = config.token;
+		iframeOrigins = config.iframeOrigins;
+		parentOrigin  = config.parentOrigin; // needed?
+
+		// load token from localStorage if possible, but only in top level window
+		try {
+			if ( ! currentToken && window.location === window.parent.location && window.localStorage ) {
+				currentToken = window.localStorage.getItem(RLT_KEY);
+			}
+		} catch( e ) {
+			console.info("localstorage access denied - probably blocked third-party access", window.location.href);
+		}
+
+		// listen for RLT events from approved origins
+		window.addEventListener( 'message', function( e ) {
+			var message = e && e.data;
+			if ( typeof message === 'string' ) {
+				try {
+					message = JSON.parse( message );
+				} catch ( err ) {
+					return;
+				}
+			}
+
+			var type = message && message.type;
+			var data = message && message.data;
+
+			if ( type === 'loginMessage' ) {
+				if ( data && data.type === 'rlt' && data.token !== currentToken ) {
+					// put into localStorage if running in top-level window (not iframe)
+					rltStoreToken( data.token );
+
+					// send to registered iframes
+					for ( const [ frameOrigin, frameWindow ] of registeredIframes ) {
+						rltInjectToken( currentToken, frameWindow, frameOrigin );
+					}
+
+					// send to the parent, unless the event was sent _by_ the parent
+					if ( parentOrigin && parentOrigin !== data.sourceOrigin && window.parent ) {
+						rltInjectToken( currentToken, window.parent, parentOrigin );
+					}
+				}
+			}
+
+			if ( type === 'rltMessage' ) {
+				if ( data && data.event === 'invalidate' && data.token === currentToken ) {
+					rltInvalidateToken( data.token );
+				}
+
+				if ( data && data.event === 'register' ) {
+					if ( rltShouldAuthorizeIframe( e.origin ) ) {
+						registeredIframes.push( [ e.origin, e.source ] );
+						if ( currentToken ) {
+							rltInjectToken( currentToken, e.source, e.origin );
+						}
+					}
+				}
+			}
+		} );
+
+		initializationListeners.forEach( function( listener ) {
+			listener( currentToken );
+		} );
+
+		initializationListeners = [];
+
+		// inform the parent that we are ready to receive the RLT token
+		window.parent.postMessage( {
+			type: 'rltMessage',
+			data: {
+				event: 'register'
+			},
+		}, '*' );
+
+		hasBeenInitialized = true;
+	};
+} )();
+;
+window.wpNotesCommon=window.wpNotesCommon||{noteType2Noticon:{like:"like",follow:"follow",comment_like:"like",comment:"comment",comment_pingback:"external",reblog:"reblog",like_milestone_achievement:"trophy",achieve_followed_milestone_note:"trophy",achieve_user_anniversary:"trophy",best_liked_day_feat:"milestone",best_followed_day_feat:"milestone",automattician_achievement:"trophy",expired_domain_alert:"alert",automattcher:"atsign"},bumpStat:function(e,t){window.wpNotesIsJetpackClient&&["notes-menu-impressions","notes-menu-clicks"].includes(e)&&(t=t.replace(/(,|$)/g,"-jetpack$1")),new Image().src=`${document.location.protocol}//pixel.wp.com/g.gif?v=wpcom-no-pv&x_${e}=${t}&baba=${Math.random()}`},getKeycode:function(e){if(!0===e.ctrlKey||!0===e.altKey||!0===e.metaKey)return!1;let t=e.target;t&&3===t.nodeType&&(t=t.parentNode);let o=t&&t.tagName;return(!e.keyCode||"INPUT"!==o&&"TEXTAREA"!==o&&"SELECT"!==o)&&(!e.keyCode||!t||"true"!==t.contentEditable)&&(!e.keyCode||!t||"editor-canvas"!==t.name)&&e.keyCode}};;
+( function () {
+	if ( typeof wpcom === 'undefined' ) {
+		window.wpcom = {};
+	}
+
+	if ( ! window.wpNotesArgs ) {
+		console.warn( 'Missing data from PHP (wpNotesArgs).' );
+	}
+	const wpNotesArgs = window.wpNotesArgs || {};
+	// The main cache buster _should_ always be defined.
+	const cacheBuster = wpNotesArgs.cacheBuster || 'none';
+	let iframeLoaded = false;
+	let iframeUrl = wpNotesArgs.iframeUrl || 'https://widgets.wp.com/notes/';
+	let iframeAppend = wpNotesArgs.iframeAppend || '';
+	let iframeScroll = wpNotesArgs.iframeScroll || 'no';
+	let wideScreen = wpNotesArgs.wide || false;
+
+	let iframePanelId;
+	let iframeFrameId;
+
+	class WPNTView {
+		constructor() {
+			this.el = document.querySelector( '#wp-admin-bar-notes' );
+
+			if ( ! this.el ) {
+				return;
+			}
+
+			// If notes icon markup contains a span with the class "noticon-bell", add a class to the parent li
+			// This allows us to change the icon in the admin bar while maintaining backwards compatibility with older notification icon
+			if ( this.el.querySelector( '.noticon-bell' ) ) {
+				this.el.classList.add( 'bell' );
+			} else {
+				this.el.classList.add( 'notification' );
+			}
+
+			this.hasUnseen = null;
+			this.initialLoad = true;
+			this.count = null;
+			this.iframe = null;
+			this.iframeWindow = null;
+			this.messageQ = [];
+			this.iframeSpinnerShown = false;
+			this.isJetpack = false;
+			this.linkAccountsURL = false;
+			this.currentMasterbarActive = undefined;
+
+			// Don't break notifications if jquery.spin isn't available.
+			// TODO: Remove once notes-common-v2.js no longer depends on jQuery spin.
+			if ( window.jQuery && window.jQuery.fn && ! window.jQuery.fn.spin ) {
+				window.jQuery.fn.spin = () => {};
+			}
+
+			const adminbar = document.querySelector( '#wpadminbar' );
+			this.isRtl = adminbar && adminbar.classList.contains( 'rtl' );
+			this.count = document.querySelector( '#wpnt-notes-unread-count' );
+			this.panel = document.querySelector( `#${ iframePanelId }` );
+
+			if ( ! this.count || ! this.panel ) {
+				return;
+			}
+
+			this.hasUnseen = this.count.classList.contains( 'wpn-unread' );
+			if ( window.wpNotesIsJetpackClient ) {
+				this.isJetpack = true;
+			}
+			if ( this.isJetpack && typeof window.wpNotesLinkAccountsURL !== 'undefined' ) {
+				this.linkAccountsURL = window.wpNotesLinkAccountsURL;
+			}
+
+			const handleItemInput = ( e ) => {
+				e.preventDefault();
+				this.togglePanel();
+			};
+
+			this.el.querySelectorAll( '.ab-item' ).forEach( ( el ) => {
+				el.addEventListener( 'click', handleItemInput );
+				el.addEventListener( 'touchstart', handleItemInput, { passive: false } );
+			} );
+
+			if ( iframeAppend === '2' ) {
+				if ( typeof document.hidden !== 'undefined' ) {
+					document.addEventListener( 'visibilitychange', () => {
+						this.postMessage( {
+							action: 'toggleVisibility',
+							hidden: document.hidden,
+						} );
+					} );
+				}
+			}
+
+			// Click outside the panel to close the panel.
+			const handleMouseDownAndFocus = ( e ) => {
+				// Don't fire if the panel isn't showing
+				if ( ! this.showingPanel ) {
+					return true;
+				}
+
+				const clicked = e.target;
+
+				/**
+				 * Don't fire if there's no real click target
+				 * Prevents Firefox issue described here: http://datap2.wordpress.com/2013/08/15/running-in-to-some-strange/
+				 */
+				if ( clicked === document || clicked === document.documentElement ) {
+					return true;
+				}
+
+				// Don't fire on clicks in the panel.
+				if ( clicked.closest( '#wp-admin-bar-notes' ) ) {
+					return true;
+				}
+
+				this.hidePanel();
+				return false;
+			};
+
+			document.addEventListener( 'mousedown', handleMouseDownAndFocus );
+			document.addEventListener( 'focus', handleMouseDownAndFocus );
+
+			document.addEventListener( 'keydown', ( e ) => {
+				const keyCode = window.wpNotesCommon.getKeycode( e );
+				if ( ! keyCode ) {
+					return;
+				}
+
+				if ( keyCode === 27 ) {
+					// ESC close only
+					this.hidePanel();
+				}
+				if ( keyCode === 78 ) {
+					// n open/close
+					this.togglePanel();
+				}
+
+				// Ignore other commands if the iframe hasn't been loaded yet
+				if ( this.iframeWindow === null ) {
+					return;
+				}
+
+				if ( this.showingPanel ) {
+					if ( keyCode === 74 || keyCode === 40 ) {
+						// j and down arrow
+						this.postMessage( { action: 'selectNextNote' } );
+						e.preventDefault();
+					}
+
+					if ( keyCode === 75 || keyCode === 38 ) {
+						// k and up arrow
+						this.postMessage( { action: 'selectPrevNote' } );
+						e.preventDefault();
+					}
+
+					if ( keyCode === 82 || keyCode === 65 || keyCode === 83 || keyCode === 84 ) {
+						// mod keys (r,a,s,t) to pass to iframe
+						this.postMessage( { action: 'keyEvent', keyCode } );
+						e.preventDefault();
+					}
+				}
+			} );
+
+			// Listen to `notes:togglePanel` event from legacy Backbone systems.
+			if ( window.wpcom.events && window.wpcom.events.on ) {
+				window.wpcom.events.on( 'notes:togglePanel', () => this.togglePanel() );
+			}
+
+			if ( this.isJetpack ) {
+				this.loadIframe();
+			} else {
+				setTimeout( () => this.loadIframe(), 3000 );
+			}
+
+			if ( this.count.classList.contains( 'wpn-unread' ) ) {
+				window.wpNotesCommon.bumpStat( 'notes-menu-impressions', 'non-zero' );
+			} else {
+				window.wpNotesCommon.bumpStat( 'notes-menu-impressions', 'zero' );
+			}
+
+			// Listen for postMessage events from the iframe
+			window.addEventListener( 'message', ( event ) => {
+				if ( event.origin !== 'https://wordpress.com' ) {
+					return;
+				}
+				try {
+					const data = typeof event.data === 'string' ? JSON.parse( event.data ) : event.data;
+
+					if ( data.type !== 'notesIframeMessage' ) {
+						return;
+					}
+					this.handleEvent( data );
+				} catch ( e ) {
+					// Do nothing.
+				}
+			} );
+		}
+
+		handleEvent( event ) {
+			if ( ! event || ! event.action ) {
+				return;
+			}
+
+			switch ( event.action ) {
+				case 'togglePanel':
+					this.togglePanel();
+					break;
+				case 'render':
+					this.render( event.num_new, event.latest_type );
+					break;
+				case 'renderAllSeen':
+					this.renderAllSeen();
+					break;
+				case 'iFrameReady':
+					this.iFrameReady( event );
+					break;
+				case 'widescreen': {
+					const iframe = document.querySelector( `#${ iframeFrameId }` );
+					if ( iframe ) {
+						if ( event.widescreen && ! iframe.classList.contains( 'widescreen' ) ) {
+							iframe.classList.add( 'widescreen' );
+						} else if ( ! event.widescreen && iframe.classList.contains( 'widescreen' ) ) {
+							iframe.classList.remove( 'widescreen' );
+						}
+					}
+					break;
+				}
+			}
+		}
+
+		render( numNew, latestType ) {
+			if ( this.hasUnseen === false && numNew === 0 ) {
+				return;
+			}
+
+			// Assume the icon is correct on initial load.
+			if ( this.initialLoad && this.hasUnseen && numNew !== 0 ) {
+				this.initialLoad = false;
+				return;
+			}
+
+			if ( ! this.hasUnseen && numNew !== 0 ) {
+				window.wpNotesCommon.bumpStat( 'notes-menu-impressions', 'non-zero-async' );
+			}
+
+			let latestIconType = window.wpNotesCommon.noteType2Noticon[ latestType ];
+			if ( ! latestIconType ) {
+				latestIconType = 'notification';
+			}
+
+			this.count.innerHTML = '';
+
+			if ( numNew === 0 || this.showingPanel ) {
+				this.hasUnseen = false;
+				this.count.classList.remove( 'wpn-unread' );
+				this.count.classList.add( 'wpn-read' );
+				this.count.appendChild( this.getStatusIcon( numNew ) );
+
+				if ( window.wpcom.masterbar ) {
+					window.wpcom.masterbar.hasUnreadNotifications( false );
+				}
+			} else {
+				this.hasUnseen = true;
+				this.count.classList.remove( 'wpn-read' );
+				this.count.classList.add( 'wpn-unread' );
+				this.count.appendChild( this.getStatusIcon( null, latestIconType ) );
+
+				if ( window.wpcom.masterbar ) {
+					window.wpcom.masterbar.hasUnreadNotifications( true );
+				}
+			}
+		}
+
+		renderAllSeen() {
+			if ( ! this.hasToggledPanel ) {
+				return;
+			}
+
+			this.render( 0 );
+		}
+
+		getStatusIcon( number, alt = null ) {
+			// Changing `number` once produced different icons, but now it's ignored.
+			const iconClass = alt ? `noticon-${ alt }` : 'noticon-notification';
+			const el = document.createElement( 'span' );
+			el.classList.add( 'noticon' );
+			el.classList.add( iconClass );
+			return el;
+		}
+
+		togglePanel() {
+			if ( ! this.hasToggledPanel ) {
+				this.hasToggledPanel = true;
+			}
+			this.loadIframe();
+
+			this.el.classList.toggle( 'wpnt-stayopen' );
+			this.el.classList.toggle( 'wpnt-show' );
+			this.showingPanel = this.el.classList.contains( 'wpnt-show' );
+
+			document
+				.querySelectorAll( '.ab-active' )
+				.forEach( ( el ) => el.classList.remove( 'ab-active' ) );
+
+			if ( this.showingPanel ) {
+				this.el.querySelectorAll( '.wpn-unread' ).forEach( ( el ) => {
+					el.classList.remove( 'wpn-unread' );
+					el.classList.add( 'wpn-read' );
+				} );
+				this.reportIframeDelay();
+				if ( this.hasUnseen ) {
+					window.wpNotesCommon.bumpStat( 'notes-menu-clicks', 'non-zero' );
+				} else {
+					window.wpNotesCommon.bumpStat( 'notes-menu-clicks', 'zero' );
+				}
+
+				this.hasUnseen = false;
+			}
+
+			// tell the iframe we are opening it
+			this.postMessage( {
+				action: 'togglePanel',
+				showing: this.showingPanel,
+			} );
+
+			const focusNotesIframe = ( iframe ) => {
+				if ( iframe.contentWindow === null ) {
+					iframe.addEventListener( 'load', iframe.contentWindow.focus() );
+				} else {
+					iframe.contentWindow.focus();
+				}
+			};
+
+			if ( this.showingPanel ) {
+				focusNotesIframe( this.iframe );
+			} else {
+				window.focus();
+			}
+
+			this.setActive( this.showingPanel );
+		}
+
+		// Handle juggling the .active state of the masterbar
+		setActive( active ) {
+			if ( active ) {
+				this.currentMasterbarActive = document.querySelectorAll( '.masterbar li.active' );
+				this.currentMasterbarActive.forEach( ( el ) => el.classList.remove( 'active' ) );
+				this.el.classList.add( 'active' );
+			} else {
+				this.el.classList.remove( 'active' );
+				if ( this.currentMasterbarActive ) {
+					this.currentMasterbarActive.forEach( ( el ) => el.classList.add( 'active' ) );
+				}
+				this.currentMasterbarActive = undefined;
+			}
+			const a = this.el.querySelector( 'a' );
+			if ( a ) {
+				a.blur();
+			}
+		}
+
+		loadIframe() {
+			const args = [];
+
+			if ( this.iframe === null ) {
+				this.panel.classList.add( 'loadingIframe' );
+
+				if ( this.isJetpack ) {
+					args.push( 'jetpack=true' );
+					if ( this.linkAccountsURL ) {
+						args.push( 'link_accounts_url=' + escape( this.linkAccountsURL ) );
+					}
+				}
+
+				// Attempt to detect if browser is a touch device, similar code
+				// in Calypso. The class adds CSS needed for mobile Safari to allow
+				// scrolling of iframe.
+				if (
+					'ontouchstart' in window ||
+					( window.DocumentTouch && document instanceof window.DocumentTouch )
+				) {
+					this.panel.classList.add( 'touch' );
+				}
+
+				const panelRtl = this.panel.getAttribute( 'dir' ) === 'rtl';
+				const lang = this.panel.getAttribute( 'lang' ) || 'en';
+				args.push( 'v=' + cacheBuster );
+				args.push( 'locale=' + lang );
+				const queries = args.length ? '?' + args.join( '&' ) : '';
+				let src = iframeUrl;
+				if (
+					iframeAppend === '2' &&
+					( this.isRtl || panelRtl ) &&
+					! /rtl.html$/.test( iframeUrl )
+				) {
+					src = iframeUrl + 'rtl.html';
+				}
+				src = src + queries + '#' + document.location.toString();
+				if ( panelRtl ) {
+					src += '&rtl=1';
+				}
+				if ( ! lang.match( /^en/ ) ) {
+					src += '&lang=' + lang;
+				}
+
+				// Add the iframe (invisible until iFrameReady)
+				this.iframe = document.createElement( 'iframe' );
+				this.iframe.setAttribute( 'style', 'display:none' );
+				this.iframe.setAttribute( 'id', iframeFrameId );
+				this.iframe.setAttribute( 'frameborder', 0 );
+				this.iframe.setAttribute( 'allowtransparency', 'true' );
+				this.iframe.setAttribute( 'scrolling', iframeScroll );
+				this.iframe.setAttribute( 'src', src );
+
+				if ( wideScreen ) {
+					this.panel.classList.add( 'wide' );
+					this.iframe.classList.add( 'wide' );
+				}
+
+				// This stops twenty-twenty from wreaking its madness upon the iframe.
+				// @see https://opengrok.a8c.com/source/xref/pub/twentytwenty/assets/js/index.js?r=59938#314
+				this.iframe.classList.add( 'intrinsic-ignore' );
+				this.panel.appendChild( this.iframe );
+			}
+		}
+
+		reportIframeDelay() {
+			if ( ! this.iframeWindow ) {
+				if ( ! this.iframeSpinnerShown ) {
+					this.iframeSpinnerShown = new Date().getTime();
+				}
+				return;
+			}
+			if ( this.iframeSpinnerShown !== null ) {
+				let delay = 0;
+				if ( this.iframeSpinnerShown ) {
+					delay = new Date().getTime() - this.iframeSpinnerShown;
+				}
+				let bucket = '';
+				if ( delay === 0 ) {
+					bucket = '0';
+				} else if ( delay < 1000 ) {
+					bucket = '0-1';
+				} else if ( delay < 2000 ) {
+					bucket = '1-2';
+				} else if ( delay < 4000 ) {
+					bucket = '2-4';
+				} else if ( delay < 8000 ) {
+					bucket = '4-8';
+				} else {
+					bucket = '8-N';
+				}
+				window.wpNotesCommon.bumpStat( 'notes_iframe_perceived_delay', bucket );
+				this.iframeSpinnerShown = null;
+			}
+		}
+
+		iFrameReady( event ) {
+			const urlParser = new URL( this.iframe.src );
+			this.iframeOrigin = urlParser.protocol + '//' + urlParser.host;
+			this.iframeWindow = this.iframe.contentWindow;
+
+			if ( 'num_new' in event ) {
+				this.render( event.num_new, event.latest_type );
+			}
+
+			this.panel.classList.remove( 'loadingIframe' );
+			this.panel.querySelectorAll( '.wpnt-notes-panel-header' ).forEach( ( el ) => el.remove() );
+			this.iframe.style.removeProperty( 'display' );
+			if ( this.showingPanel ) {
+				this.reportIframeDelay();
+			}
+
+			const handleActivity = () => {
+				// Throttle postMessages since the overhead is pretty high & these events fire a lot
+				const now = new Date().getTime();
+				if ( ! this.lastActivityRefresh || this.lastActivityRefresh < now - 5000 ) {
+					this.lastActivityRefresh = now;
+					this.postMessage( { action: 'refreshNotes' } );
+				}
+			};
+
+			window.addEventListener( 'focus', handleActivity );
+			window.addEventListener( 'keydown', handleActivity );
+			window.addEventListener( 'mousemove', handleActivity );
+			window.addEventListener( 'scroll', handleActivity );
+
+			this.sendQueuedMessages();
+		}
+
+		hidePanel() {
+			if ( this.showingPanel ) {
+				this.togglePanel();
+			}
+		}
+
+		postMessage( message ) {
+			try {
+				let formattedMessage = typeof message === 'string' ? JSON.parse( message ) : message;
+
+				const isMessageValid =
+					typeof formattedMessage === 'function' ||
+					( typeof formattedMessage === 'object' && !! formattedMessage );
+
+				if ( ! isMessageValid ) {
+					return;
+				}
+
+				formattedMessage = {
+					type: 'notesIframeMessage',
+					...formattedMessage,
+				};
+
+				const targetOrigin = this.iframeOrigin;
+				if ( this.iframeWindow && this.iframeWindow.postMessage ) {
+					this.iframeWindow.postMessage( JSON.stringify( formattedMessage ), targetOrigin );
+				} else {
+					this.messageQ.push( formattedMessage );
+				}
+			} catch ( e ) {
+				// Do nothing.
+			}
+		}
+
+		sendQueuedMessages() {
+			this.messageQ.forEach( ( m ) => this.postMessage( m ) );
+			this.messageQ = [];
+		}
+	}
+
+	/**
+	 * Check if browser is Safari
+	 */
+	function isSafari() {
+		return /^((?!chrome|android).)*safari/i.test( navigator.userAgent );
+	}
+
+	/**
+	 * Require 3PC check not on safari and window location is not on wordpress.com or *.wordpress.com
+	 */
+	function requires3PC() {
+		return isSafari() ? window.location.hostname.match( /wordpress\.com$/ ) === null : true;
+	}
+
+	function loadCheck3PCIframe() {
+		var iframe = document.createElement( 'iframe' );
+		iframe.setAttribute( 'style', 'display:none' );
+		iframe.setAttribute( 'class', 'jetpack-notes-cookie-check' );
+		iframe.setAttribute( 'src', 'https://wordpress.com/widgets/3rd-party-cookie-check/' );
+		document.body.appendChild( iframe );
+	}
+
+	function initCheck3PC() {
+		loadCheck3PCIframe();
+		window.addEventListener('message', function (event) {
+			// Confirm that the message is from the right origin.
+			if ('https://wordpress.com' !== event.origin) {
+				return;
+			}
+
+			// Check whether 3rd Party Cookies are blocked
+			if ( 'WPCOM:3PC:allowed' === event.data && ! iframeLoaded ) {
+				console.debug( '3PC allowed' );
+				initIFrame();
+			} else if ( 'WPCOM:3PC:blocked' === event.data ) {
+				console.debug( '3PC blocked' );
+				initRedirect();
+			}
+		}, false);
+	}
+
+	function initIFrame() {
+		if (
+			! document.querySelector( '#wpnt-notes-panel' ) &&
+			document.querySelector( '#wpnt-notes-panel2' ) &&
+			window.wpNotesIsJetpackClientV2
+		) {
+			iframeUrl = 'https://wordpress.com/widgets/notifications/';
+			iframeAppend = '2';
+			iframeScroll = 'yes';
+			wideScreen = true;
+		}
+
+		iframePanelId = 'wpnt-notes-panel' + iframeAppend;
+		iframeFrameId = 'wpnt-notes-iframe' + iframeAppend;
+		iframeLoaded  = true;
+
+		new WPNTView();
+	}
+
+	function initRedirect() {
+		if ( iframeLoaded ) {
+			return;
+		}
+		const notificationsMenu = document.querySelector( '#wp-admin-bar-notes' );
+		if ( ! notificationsMenu ) {
+			return;
+		}
+
+		notificationsMenu.addEventListener( 'click', function( event ) {
+			event.stopPropagation();
+			event.preventDefault();
+			window.location = 'https://wordpress.com/reader/notifications';
+		} );
+
+		// If notes icon markup contains a span with the class "noticon-bell", add a class to the parent li
+		// This allows us to change the icon in the admin bar while maintaining backwards compatibility with older notification icon
+		if ( notificationsMenu.querySelector( '.noticon-bell' ) ) {
+			notificationsMenu.classList.add( 'bell' );
+		} else {
+			notificationsMenu.classList.add( 'notification' );
+		}
+	}
+
+	function init() {
+		requires3PC() ? initCheck3PC() : initIFrame();
+	}
+
+	if ( document.readyState !== 'loading' ) {
+		init();
+	} else {
+		document.addEventListener( 'DOMContentLoaded', init );
+	}
+} )();
+;

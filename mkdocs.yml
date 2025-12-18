@@ -1,0 +1,66 @@
+site_name: Mason Youngblood, PhD
+site_url: https://masonyoungblood.com
+repo_url: https://github.com/masonyoungblood
+
+theme:
+  name: material
+  font:
+    text: IBM Plex Mono
+  icon:
+    logo: material/hexagon-multiple-outline
+  favicon: assets/hexagon-multiple-outline.svg
+  palette:
+    - scheme: default
+      primary: deep purple
+      accent: 
+      toggle:
+        icon: material/weather-sunny
+        name: Light mode
+    - scheme: slate
+      primary: deep purple
+      accent: 
+      toggle:
+        icon: material/weather-night
+        name: Dark mode
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.annotate
+    - toc.follow
+    #- toc.integrate
+
+nav:
+  - Home: index.md
+  - Publications: publications.md
+  - Software: software.md
+  - Press: press.md
+  - Art: art.md
+  - Music: music.md
+  - CV: mason_youngblood_cv.pdf
+
+markdown_extensions:
+  - md_in_html
+  - attr_list
+  - pymdownx.snippets
+  - tables
+
+plugins:
+  - search
+  - open-in-new-tab
+
+extra_css:
+  - css/extra.css
+
+extra:
+  generator: false
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/masonyoungblood
+    - icon: fontawesome/brands/bluesky
+      link: https://bsky.app/profile/masonyoungblood.bsky.social
+    - icon: fontawesome/brands/instagram
+      link: https://www.instagram.com/masyoungblood/
