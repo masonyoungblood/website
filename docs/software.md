@@ -1,6 +1,8 @@
 # Software
 
-## `chatter`: a Python library for applying information theory and AI/ML models to animal communication
+## Python
+
+### `chatter`: a Python library for applying information theory and AI/ML models to animal communication
 
 [GitHub](https://github.com/masonyoungblood/chatter) | [Documentation](https://masonyoungblood.github.io/chatter/)
 
@@ -13,7 +15,9 @@ Historically, analyses of sequential structure in animal communication have invo
 - Similarity—cosine similarity between units or sequences in latent space.
 - Novelty—inverse of predicted density of units or sequences in latent space.
 
-## `TwitterABM`: agent-based model of biased cultural transmission on Twitter
+## R
+
+### `TwitterABM`: agent-based model of biased cultural transmission on Twitter
 
 [GitHub](https://github.com/masonyoungblood/TwitterABM)
 
@@ -21,7 +25,7 @@ Historically, analyses of sequential structure in animal communication have invo
 
 An agent-based model (ABM) for exploring how ideas spread on Twitter/X under different assumptions about *why* people copy what they see. It simulates three classic transmission biases—**content** (some messages are intrinsically more “catchy”), **frequency** (people copy what’s common), and **demonstrator** (people copy influential accounts)—so you can run controlled experiments and see which mechanisms reproduce real-world patterns. The model draws on [Carrignon et al. (2019)](https://www.nature.com/articles/s41599-019-0295-9), [Lachlan et al. (2018)](https://www.nature.com/articles/s41467-018-04728-1), and [Youngblood & Lahti (2021)](https://www.biorxiv.org/content/10.1101/2021.03.05.434109v1).
 
-## `DynCommPhylo`: phylogenetic reconstruction via dynamic community detection
+### `DynCommPhylo`: phylogenetic reconstruction via dynamic community detection
 
 [GitHub](https://github.com/masonyoungblood/DynCommPhylo)
 
@@ -29,7 +33,7 @@ An agent-based model (ABM) for exploring how ideas spread on Twitter/X under dif
 
 Tools for turning dynamic community structure in networks into something you can read like an evolutionary tree. `DynCommPhylo` takes the output of the [TILES](https://github.com/GiulioRossetti/TILES) dynamic community detection algorithm, simplifies the network structure (via fast-greedy modularity optimization), and produces phylogeny-style plots that highlight splits, merges, and lineages over time—useful for tracking how communities evolve in social, cultural, or biological systems.
 
-## `TransmissionBias`: agent-based model of biased cultural transmission
+### `TransmissionBias`: agent-based model of biased cultural transmission
 
 [GitHub](https://github.com/masonyoungblood/TransmissionBias)
 
