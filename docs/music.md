@@ -7,7 +7,9 @@ Since 2014, I have been producing and releasing experimental club music as Callo
 
 Starting in fall 2025, I'll be hosting an event series called LIFT at the Reforesters Laboratory in Brooklyn—"exploring the ambient fringes of the hardcore continuum in 24.2-channel spatial audio". [Follow on Instagram](https://www.instagram.com/lift.mp3/) for updates!
 
-[![lot_radio](images/other/lot_radio_lift_2025.png)](https://www.youtube.com/watch?v=C1XSJy-M3Vo)
+[![lot_radio_lift](images/other/lot_radio_lift_2025.png)](https://www.youtube.com/watch?v=C1XSJy-M3Vo)
+
+[![lot_radio_b2b](images/other/lot_radio_b2b_2025.png)](https://www.youtube.com/watch?v=_ZJjDByr5BU)
 
 ## Recent Releases
 

@@ -18,6 +18,8 @@
 
 ## Other
 
+[![lot_radio_b2b](images/other/lot_radio_b2b_2025.png)](https://www.youtube.com/watch?v=_ZJjDByr5BU)
+
 [![lot_radio](images/other/lot_radio_lift_2025.png)](https://www.youtube.com/watch?v=C1XSJy-M3Vo)
 
 [![youtube](images/press/wild_resonance.png)](https://www.youtube.com/watch?v=1gEI7Ihibac)
