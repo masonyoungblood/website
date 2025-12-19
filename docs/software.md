@@ -1,6 +1,6 @@
 # Software
 
-## Python
+## Python packages
 
 ### `chatter`: a Python library for applying information theory and AI/ML models to animal communication
 
@@ -15,7 +15,7 @@ Historically, analyses of sequential structure in animal communication have invo
 - Similarity—cosine similarity between units or sequences in latent space.
 - Novelty—inverse of predicted density of units or sequences in latent space.
 
-## R
+## R packages
 
 ### `TwitterABM`: agent-based model of biased cultural transmission on Twitter
 

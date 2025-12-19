@@ -25,11 +25,11 @@
   typography-line-spacing: 0.6em,
   typography-alignment: "justified",
   typography-date-and-location-column-alignment: right,
-  typography-font-family-body: "IBM Plex Mono",
-  typography-font-family-name: "IBM Plex Mono",
-  typography-font-family-headline: "IBM Plex Mono",
-  typography-font-family-connections: "IBM Plex Mono",
-  typography-font-family-section-titles: "IBM Plex Mono",
+  typography-font-family-body: "JetBrains Mono",
+  typography-font-family-name: "JetBrains Mono",
+  typography-font-family-headline: "JetBrains Mono",
+  typography-font-family-connections: "JetBrains Mono",
+  typography-font-family-section-titles: "JetBrains Mono",
   typography-font-size-body: 8pt,
   typography-font-size-name: 20pt,
   typography-font-size-headline: 8pt,
@@ -78,7 +78,7 @@
   date: datetime(
     year: 2025,
     month: 12,
-    day: 17,
+    day: 19,
   ),
 )
 

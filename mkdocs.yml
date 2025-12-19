@@ -5,7 +5,7 @@ repo_url: https://github.com/masonyoungblood
 theme:
   name: material
   font:
-    text: IBM Plex Mono
+    text: JetBrains Mono
   icon:
     logo: material/hexagon-multiple-outline
   favicon: images/hexagon-multiple-outline.svg

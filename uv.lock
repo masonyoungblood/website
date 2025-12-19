@@ -821,7 +821,7 @@ requires-dist = [
     { name = "bibtexparser" },
     { name = "bs4" },
     { name = "cairosvg" },
-    { name = "hatchling", specifier = ">=1.28.0" },
+    { name = "hatchling" },
     { name = "langdetect" },
     { name = "mkdocs" },
     { name = "mkdocs-material" },
