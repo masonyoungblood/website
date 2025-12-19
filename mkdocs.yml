@@ -8,7 +8,7 @@ theme:
     text: JetBrains Mono
   icon:
     logo: material/hexagon-multiple-outline
-  favicon: images/hexagon-multiple-outline.svg
+  favicon: images/misc/hexagon-multiple-outline.svg
   palette:
     - scheme: default
       primary: deep purple

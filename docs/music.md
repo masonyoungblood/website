@@ -1,15 +1,15 @@
 # Music
 
-![music](images/other/hex_house_rachel_amico_2025.webp)
+![music](images/misc/hex_house_rachel_amico_2025.webp)
 <small>(Credit: Rachel Amico, 2025)</small>
 
 Since 2014, I have been producing and releasing experimental club music as Callosum. As a DJ, I've held residencies on NYC-based radio stations like [Half Moon Radio](https://www.mixcloud.com/HalfMoonbk/) and [Transit FM](https://www.mixcloud.com/Transit_FM/), done guest mixes for international radio stations and platforms like [Rinse FM](https://soundcloud.com/rinsefm/classicaltrax310318), [NTS Radio](https://www.nts.live/shows/classical-trax/episodes/classical-trax-29th-june-2016), [The Lot Radio](https://soundcloud.com/thelotradio/club-ettiquite-w-guests-callosum-and-raverjinn-the-lot-radio-02-28-2020), [Rinse France](https://www.mixcloud.com/RinseFrance/resources-invite-callosum-11-octobre-2016/), [Radar Radio](https://www.mixcloud.com/RadarRadioLDN/callosum-2nd-june-2015/), and [Currents FM](https://soundcloud.com/callosum-1/pressure-plate-common-multiverse-initiative-march-17-2021), and served as the music director for [WUSC FM](https://wusc.sc.edu/) (2014-2015). My most recent residency, on [Callshop Radio](https://callshopradio.com/) in Leipzig, focused on exploring the historical roots of emotion and drama in contemporary club and rave music. I also have production credit on the album [$uccessor](https://en.wikipedia.org/wiki/Successor_(album)) by Dedekind Cut, alongside artists like DJ Shadow, Serpentwithfeet, and Claude Speeed. You can check out my music on [Spotify](https://open.spotify.com/artist/1B1hXeIH0DzfHlQr5eoNCO), [Apple Music](https://music.apple.com/us/artist/callosum/682703870), or via the streaming links below.
 
 Starting in fall 2025, I'll be hosting an event series called LIFT at the Reforesters Laboratory in Brooklyn—"exploring the ambient fringes of the hardcore continuum in 24.2-channel spatial audio". [Follow on Instagram](https://www.instagram.com/lift.mp3/) for updates!
 
-[![lot_radio_lift](images/other/lot_radio_lift_2025.png)](https://www.youtube.com/watch?v=C1XSJy-M3Vo)
+[![lot_radio_lift](images/misc/lot_radio_lift_2025.png)](https://www.youtube.com/watch?v=C1XSJy-M3Vo)
 
-[![lot_radio_b2b](images/other/lot_radio_b2b_2025.png)](https://www.youtube.com/watch?v=_ZJjDByr5BU)
+[![lot_radio_b2b](images/misc/lot_radio_b2b_2025.png)](https://www.youtube.com/watch?v=_ZJjDByr5BU)
 
 ## Recent Releases
 

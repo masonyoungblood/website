@@ -1,6 +1,6 @@
 # Welcome
 
-![headshot](images/other/headshot_andre_daugherty_2025.jpg){style="width: 30%;"}
+![headshot](images/misc/headshot_andre_daugherty_2025.jpg){style="width: 30%;"}
 <br><small>(Credit: Andre Daugherty, 2025)</small>
 
 **Hello!** My name is Dr. Mason Youngblood, and I study animal communication and cultural evolution at the [Institute for Advanced Computational Science](https://iacs.stonybrook.edu/) at [Stony Brook University](https://www.stonybrook.edu/). My research combines computational methods like machine learning and agent-based modeling to explore how socially learned behaviors change over time and space. In recent years, I've investigated questions such as:
