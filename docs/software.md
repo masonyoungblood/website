@@ -19,7 +19,7 @@ Historically, analyses of sequential structure in animal communication have invo
 
 ### `TwitterABM`: agent-based model of biased cultural transmission on Twitter
 
-[GitHub](https://github.com/masonyoungblood/TwitterABM)
+[GitHub](https://github.com/masonyoungblood/TwitterABM) | [Paper](https://www.nature.com/articles/s41599-023-02106-x)
 
 ![twitter](https://media.springernature.com/full/springer-static/image/art%3A10.1057%2Fs41599-023-02106-x/MediaObjects/41599_2023_2106_Fig1_HTML.png?as=webp)
 
@@ -27,7 +27,7 @@ An agent-based model (ABM) for exploring how ideas spread on Twitter/X under dif
 
 ### `DynCommPhylo`: phylogenetic reconstruction via dynamic community detection
 
-[GitHub](https://github.com/masonyoungblood/DynCommPhylo)
+[GitHub](https://github.com/masonyoungblood/DynCommPhylo) | [Paper](https://www.sciencedirect.com/science/article/pii/S1090513821000556)
 
 ![dyncomm](https://ars.els-cdn.com/content/image/1-s2.0-S1090513821000556-gr1_lrg.jpg)
 
@@ -35,7 +35,7 @@ Tools for turning dynamic community structure in networks into something you can
 
 ### `TransmissionBias`: agent-based model of biased cultural transmission
 
-[GitHub](https://github.com/masonyoungblood/TransmissionBias)
+[GitHub](https://github.com/masonyoungblood/TransmissionBias) | [Paper](https://www.sciencedirect.com/science/article/pii/S000334722100395X)
 
 ![transmission](https://ars.els-cdn.com/content/image/1-s2.0-S000334722100395X-gr3_lrg.jpg)
 
