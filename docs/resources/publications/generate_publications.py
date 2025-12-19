@@ -202,9 +202,10 @@ def format_journal_article(entry: Dict) -> str:
     # Add links
     links = []
     if url:
-        links.append(f"[Link]({url})")
+        links.append(f"[{url}]({url})")
     if doi and not url:
-        links.append(f"[Link](https://doi.org/{doi})")
+        doi_url = f"https://doi.org/{doi}"
+        links.append(f"[{doi_url}]({doi_url})")
     
     if links:
         citation += " ".join(links)
@@ -240,9 +241,10 @@ def format_book_chapter(entry: Dict) -> str:
     # Add links
     links = []
     if url:
-        links.append(f"[Link]({url})")
+        links.append(f"[{url}]({url})")
     if doi and not url:
-        links.append(f"[Link](https://doi.org/{doi})")
+        doi_url = f"https://doi.org/{doi}"
+        links.append(f"[{doi_url}]({doi_url})")
     
     if links:
         citation += " ".join(links)
