@@ -4,7 +4,7 @@
 
 ### `chatter`: a Python library for applying information theory and AI/ML models to animal communication
 
-[GitHub](https://github.com/masonyoungblood/chatter) | [Documentation](https://masonyoungblood.github.io/chatter/)
+[GitHub](https://github.com/masonyoungblood/chatter) | [Documentation](https://masonyoungblood.github.io/chatter/) | [Paper](https://doi.org/10.48550/arXiv.2512.17935)
 
 ![chatter](https://github.com/masonyoungblood/chatter/raw/main/docs/_static/cassins_vireo_embedding.gif?raw=true)
 

@@ -44,6 +44,8 @@
 
 ## Preprints
 
+* **Youngblood, M.** (2025). chatter: a Python library for applying information theory and AI/ML models to animal communication. *arXiv*. [https://doi.org/10.48550/arXiv.2512.17935](https://doi.org/10.48550/arXiv.2512.17935)
+
 * **Youngblood, M.** (2025). Zebra finches transform random songs to exhibit linguistic laws. *PsyArXiv*. [https://doi.org/10.31234/osf.io/m6z23_v1](https://doi.org/10.31234/osf.io/m6z23_v1)
 
 * **Youngblood, M.**, Marie, A., & Morin, O. (2025). Status quo conservatism: A theory and a model. *SocArXiv*. [https://osf.io/ngb58](https://osf.io/ngb58)

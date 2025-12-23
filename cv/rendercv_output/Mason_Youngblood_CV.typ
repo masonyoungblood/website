@@ -78,7 +78,7 @@
   date: datetime(
     year: 2025,
     month: 12,
-    day: 19,
+    day: 22,
   ),
 )
 
@@ -696,7 +696,24 @@
   [
   ],
   main-column-second-row: [
-    (#emph[n] = 5)
+    (#emph[n] = 6)
+    
+  ],
+)
+
+#regular-entry(
+  [
+    #strong[chatter: a Python library for applying information theory and AI\/ML models to animal communication]
+    
+  ],
+  [
+    2025
+    
+  ],
+  main-column-second-row: [
+    M. Youngblood
+    
+    #link("https://doi.org/https://doi.org/10.48550/arXiv.2512.17935")[https:\/\/doi.org\/10.48550\/arXiv.2512.17935] (arXiv)
     
   ],
 )
@@ -1278,7 +1295,7 @@
   [
   ],
   main-column-second-row: [
-    - Journals: #emph[Nature Communications, Science Advances, Proceedings of the Royal Society B, Philosophical Transactions of the Royal Society B, Poetics, Royal Society Interface, PLOS Computational Biology, Frontiers in Psychology, Cognitive Science, Royal Society Open Science, PNAS Nexus, Animal Behaviour, Ecology and Evolution, Methods in Ecology and Evolution, Journal of Animal Ecology, Journal of Language Evolution, PLOS ONE, Ornithology, npj Complexity, Open Mind, Topics in Cognitive Science, Animal Cognition, Journal of Complex Networks, Biology and Philosophy, Humanities and Social Sciences Communications, Palgrave Communications, International Journal of Infectious Diseases, Qeios]
+    - Journals: #emph[Nature Communications, Science Advances, PLOS Biology, Philosophical Transactions of the Royal Society B, PLOS Computational Biology, Methods in Ecology and Evolution, Journal of Animal Ecology, Proceedings of the Royal Society B, Royal Society Interface, Cognitive Science, PNAS Nexus, Poetics, Animal Behaviour, International Journal of Infectious Diseases, npj Complexity, Humanities and Social Sciences Communications, Palgrave Communications, Royal Society Open Science, Ecology and Evolution, Topics in Cognitive Science, Journal of Language Evolution, PLOS ONE, Frontiers in Psychology, Animal Cognition, Journal of Complex Networks, Open Mind, Ornithology, Biology and Philosophy, Qeios]
     
     - Themed issue proposals: #emph[Philosophical Transactions of the Royal Society B]
     
