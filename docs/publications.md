@@ -2,6 +2,8 @@
 
 ## Journal Articles
 
+* **Youngblood, M.**, & Passmore, S. (2026). Simulation-based inference with deep learning shows speed climbers combine innovation and copying to improve performance. *Proceedings of the Royal Society B*, *293*(2062), 20251433. [https://doi.org/10.1098/rspb.2025.1433](https://doi.org/10.1098/rspb.2025.1433)
+
 * Wascher, C., & **Youngblood, M.** (2025). Vocal efficiency in crows. *Animal Cognition*, *28*(75). [https://doi.org/10.1007/s10071-025-01985-8](https://doi.org/10.1007/s10071-025-01985-8)
 
 * Whiten, A., & **Youngblood, M.** (2025). Convergent evolution in whale and human vocal cultures. *Science*, *387*(6734), 581--582. [https://doi.org/10.1126/science.adv2318](https://doi.org/10.1126/science.adv2318)
@@ -40,7 +42,7 @@
 
 ## Book Chapters
 
-* **Youngblood, M.**, Ozaki, Y., & Savage, P.E. (2023). Cultural evolution and music. *The Oxford Handbook of Cultural Evolution*. Oxford University Press. [https://doi.org/10.1093/oxfordhb/9780198869252.013.42](https://doi.org/10.1093/oxfordhb/9780198869252.013.42)
+* **Youngblood, M.**, Ozaki, Y., & Savage, P.E. (2023). Cultural evolution and music. *The Oxford Handbook of Cultural Evolution*. [https://doi.org/10.1093/oxfordhb/9780198869252.013.42](https://doi.org/10.1093/oxfordhb/9780198869252.013.42)
 
 ## Preprints
 
@@ -51,8 +53,6 @@
 * **Youngblood, M.**, Marie, A., & Morin, O. (2025). Status quo conservatism: A theory and a model. *SocArXiv*. [https://osf.io/ngb58](https://osf.io/ngb58)
 
 * Savage, P.E., Ampiah-Bonney, A., Arabadjiev, A., Arhine, A., Ariza, J.F., Bamford, J.S., Barbosa, B.S., Beck, A., Belyk, M., Benetos, E., Bulbulia, J., Cabildo, A., Calhoun, S., Chiba, G., Duran, S.I., Færøvik, U., Fitch, T., Fujii, S., Gabriel, S., Haiduk, F., Hansen, N.C., Hegde, S., Honbolygó, F., Huang, J., Jacoby, N., Jadoul, Y., Jia, Z., Jung, T., Kertész, C., Khasanah, U., Kim, I., Kitayama, Y., Krzyżanowski, W., Kuikuro, U., Kurdova, D., Larrouy-Maestri, P., Leongómez, J.D., Liu, F., Lomsadze, T., Loui, P., Ma, Y., Mcbride, J., Moya, D., Natsitsabui, R., Novembre, G., Nweke, F.E., Opondo, P., Ozaki, Y., Parkinson, H., Parselelo, M.L., Pavlovich, D., Pfordresher, P., Pisanski, K., Podlipniak, P., Popescu, T., Proutskova, P., Purdy, S., Ravignani, A., Raviv, L., Sadaphal, D.P., Shakya, S.R., Shilton, D., Silva-Zurita, J., Soto-Silva, I., Tarr, B., Tierney, A., Tiratanti, P., Trainor, L., Der Nederlanden, C., Varella, M.A.C., Varnosfaderani, S.D., **Youngblood, M.**, & Zariquiey, R. (2024). Does singing enhance cooperation more than speaking does? A global experimental Stage 1 Registered Report. *PsyArXiv*. [https://doi.org/10.31234/osf.io/pv3m9](https://doi.org/10.31234/osf.io/pv3m9)
-
-* **Youngblood, M.**, & Passmore, S. (2024). Simulation-based inference with deep learning shows speed climbers combine innovation and copying to improve performance. *PsyArXiv*. [https://doi.org/10.31234/osf.io/n3rvk](https://doi.org/10.31234/osf.io/n3rvk)
 
 * GomezdelaTorre Clavel, M.G., **Youngblood, M.**, & Lahti, D. (2020). Relationship between personality and cognitive traits in domestic rabbits (*Oryctolagus cuniculus*). *bioRxiv*. [https://doi.org/10.1101/2020.10.12.336024](https://doi.org/10.1101/2020.10.12.336024)
 

@@ -166,7 +166,17 @@ Fall 2015 --  Spring 2016
 
 ## **JOURNAL ARTICLES**
 
-(#emph[n] = 18)
+(#emph[n] = 19)
+
+
+
+## **Simulation-based inference with deep learning shows speed climbers combine innovation and copying to improve performance**
+
+2026
+
+M. Youngblood, S. Passmore
+
+[https://doi.org/10.1098/rspb.2025.1433](https://doi.org/https://doi.org/10.1098/rspb.2025.1433) (Proceedings of the Royal Society B)
 
 
 
@@ -368,7 +378,7 @@ M. Youngblood, Y. Ozaki, P.E. Savage
 
 ## **PREPRINTS**
 
-(#emph[n] = 6)
+(#emph[n] = 5)
 
 
 
@@ -399,16 +409,6 @@ M. Youngblood
 M. Youngblood, A. Marie, O. Morin
 
 [https://doi.org/10.31234/osf.io/ngb58](https://doi.org/https://doi.org/10.31234/osf.io/ngb58) (SocArXiv)
-
-
-
-## **Simulation-based inference with deep learning shows speed climbers combine innovation and copying to improve performance**
-
-2024
-
-M. Youngblood, S. Passmore
-
-[https://doi.org/10.31234/osf.io/n3rvk](https://doi.org/https://doi.org/10.31234/osf.io/n3rvk) (PsyArXiv)
 
 
 

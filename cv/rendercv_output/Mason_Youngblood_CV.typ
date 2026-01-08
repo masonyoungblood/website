@@ -5,7 +5,7 @@
 #show: rendercv.with(
   name: "Mason Youngblood",
   footer: context { [#emph[Mason Youngblood -- #str(here().page())\/#str(counter(page).final().first())]] },
-  top-note: [ #emph[Last updated in 2025] ],
+  top-note: [ #emph[Last updated in 2026] ],
   locale-catalog-language: "en",
   page-size: "us-letter",
   page-top-margin: 0.6in,
@@ -76,9 +76,9 @@
   entries-highlights-space-between-items: 0cm,
   entries-highlights-space-between-bullet-and-text: 0.5em,
   date: datetime(
-    year: 2025,
-    month: 12,
-    day: 22,
+    year: 2026,
+    month: 1,
+    day: 8,
   ),
 )
 
@@ -347,7 +347,24 @@
   [
   ],
   main-column-second-row: [
-    (#emph[n] = 18)
+    (#emph[n] = 19)
+    
+  ],
+)
+
+#regular-entry(
+  [
+    #strong[Simulation-based inference with deep learning shows speed climbers combine innovation and copying to improve performance]
+    
+  ],
+  [
+    2026
+    
+  ],
+  main-column-second-row: [
+    M. Youngblood, S. Passmore
+    
+    #link("https://doi.org/https://doi.org/10.1098/rspb.2025.1433")[https:\/\/doi.org\/10.1098\/rspb.2025.1433] (Proceedings of the Royal Society B)
     
   ],
 )
@@ -696,7 +713,7 @@
   [
   ],
   main-column-second-row: [
-    (#emph[n] = 6)
+    (#emph[n] = 5)
     
   ],
 )
@@ -748,23 +765,6 @@
     M. Youngblood, A. Marie, O. Morin
     
     #link("https://doi.org/https://doi.org/10.31234/osf.io/ngb58")[https:\/\/doi.org\/10.31234\/osf.io\/ngb58] (SocArXiv)
-    
-  ],
-)
-
-#regular-entry(
-  [
-    #strong[Simulation-based inference with deep learning shows speed climbers combine innovation and copying to improve performance]
-    
-  ],
-  [
-    2024
-    
-  ],
-  main-column-second-row: [
-    M. Youngblood, S. Passmore
-    
-    #link("https://doi.org/https://doi.org/10.31234/osf.io/n3rvk")[https:\/\/doi.org\/10.31234\/osf.io\/n3rvk] (PsyArXiv)
     
   ],
 )

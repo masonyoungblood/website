@@ -150,7 +150,15 @@ cv:
     publications:
     - title: JOURNAL ARTICLES
       authors:
-      - (*n* = 18)
+      - (*n* = 19)
+    - title: Simulation-based inference with deep learning shows speed climbers combine
+        innovation and copying to improve performance
+      authors:
+      - M. Youngblood
+      - S. Passmore
+      journal: Proceedings of the Royal Society B
+      date: '2026'
+      doi: https://doi.org/10.1098/rspb.2025.1433
     - title: Vocal efficiency in crows
       authors:
       - C. Wascher
@@ -312,7 +320,7 @@ cv:
       doi: https://doi.org/10.1093/oxfordhb/9780198869252.013.42
     - title: PREPRINTS
       authors:
-      - (*n* = 6)
+      - (*n* = 5)
     - title: 'chatter: a Python library for applying information theory and AI/ML
         models to animal communication'
       authors:
@@ -334,14 +342,6 @@ cv:
       journal: SocArXiv
       date: '2025'
       doi: https://doi.org/10.31234/osf.io/ngb58
-    - title: Simulation-based inference with deep learning shows speed climbers combine
-        innovation and copying to improve performance
-      authors:
-      - M. Youngblood
-      - S. Passmore
-      journal: PsyArXiv
-      date: '2024'
-      doi: https://doi.org/10.31234/osf.io/n3rvk
     - title: Does singing enhance cooperation more than speaking does? A global experimental
         Stage 1 Registered Report
       authors:
