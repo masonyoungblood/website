@@ -16,7 +16,7 @@ Performances:
 * [NEW INC](https://www.newmuseum.org/new-inc/) and the [New Museum](https://www.newmuseum.org/)'s Creative Science Dinner at the [Prospect Park Boathouse](https://www.prospectpark.org/visit-the-park/weddings-and-special-events/boathouse/), 8-channel audio (Brooklyn, October 14, 2025)
 * 25 Saint James Place, 8-channel audio (Manhattan, November 20, 2025)
 * [Something Fierce Festival](https://www.ameliamarzec.com/somethingfierce/) at [Flux Factory](https://www.fluxfactory.org/), 8-channel audio (Queens, November 22-23, 2025)
-* [Technology in Music and Related Art](https://www.oberlin.edu/timara) at [Oberlin College](https://www.oberlin.edu/), multi-channel audio (Ohio, December 5, 2025)
+* [Technology in Music and Related Art](https://www.oberlin.edu/timara) at [Oberlin College](https://www.oberlin.edu/), 16-channel audio (Ohio, December 5, 2025)
 * [UPCOMING] [Ortega y Gasset Projects](https://www.oygprojects.com/), 8-channel audio (Brooklyn, TBD 2026)
 * [UPCOMING] [New Ear](https://new-ear.org/), 8-channel audio (Manhattan, TBD 2026)
 

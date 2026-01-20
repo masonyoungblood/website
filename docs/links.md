@@ -6,6 +6,8 @@
 
 ## Events
 
+[Avian Annotations: 7 February 2026](https://www.fougallery.com/experience-list/avian-annotations-immersive-concert)
+
 [LIFT #02: 13 December 2025](https://ra.co/events/2311484){ .md-button .md-button--primary }
 
 [Something Fierce Festival: 22-23 November 2025](https://www.eventbrite.com/e/songs-of-the-oo-memory-extinction-deep-listening-tickets-1974276775983?aff=oddtdtcreator){ .md-button .md-button--primary }
