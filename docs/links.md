@@ -5,6 +5,7 @@
 [Website](https://masonyoungblood.com){ .md-button .md-button--primary }
 
 ## Events
+[LIFT #03: 14 February 2026](https://ra.co/events/2352571){ .md-button .md-button--primary }
 
 [Avian Annotations: 7 February 2026](https://www.fougallery.com/experience-list/avian-annotations-immersive-concert)
 
