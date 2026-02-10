@@ -2,6 +2,17 @@
 
 ## Sound Art
 
+### *Involuntary Ghosts* (Performance, 2026)
+
+![involuntary_ghosts](images/art/involuntary_ghosts_james_tuite_2026.jpg)
+<small>(Credit: James Tuite, 2026)</small>
+
+Habitat loss and rapid urbanization in Beijing are actively reshaping the landscape for native bird populations. Involuntary Ghosts is a 20-minute, four-channel spatial audio performance that imagines birds in this changing environment singing for their lost kin. The piece uses a real-time simulation of interacting native bird species, with vocalizations that are manipulated to hover between recognizable birdsong and spectral textures. The simulation places a virtual voice on each branch of an imagined ghost tree, calling out to one another across the room.
+
+Appearances:
+
+* [MISE-EN_PLACE](https://www.mise-en.org/), 4-channel audio (Manhattan, February 7, 2025)
+
 ### *Alaka'i 1777* (Installation/Performance, 2025)
 
 ![alakai](images/art/alakai_1777_isaiah_winters_2025.jpg)
@@ -9,7 +20,7 @@
 
 *Alaka'i 1777* is an immersive sound installation that reconstructs the lost song culture of the Kauaʻi ʻōʻō (kuh-wai-ee oh-oh), an extinct Hawaiian bird, by weaving together archival recordings with interacting artificial agents. 1777 is the last year that the Alaka'i swamp, the Kauaʻi ʻōʻō's ancestral habitat, was unaffected by European contact. Using a mathematical model of the avian vocal organ (the syrinx), trained on the few surviving recordings of the species, the work generates imagined songs—speculative echoes of what the Kauaʻi ʻōʻō's vocal repertoire may have been before population decline erased its complexity. As species dwindle, their songs, like human languages, become simpler and less varied, fading with each generation. To give listeners a deeper sense of this lost world, the entire soundscape is slowed down, allowing them to experience the songs as the original inhabitants of Alaka'i may have perceived them. Within this expanded space, artificial agents act as spectral ancestors, engaging in a dynamic, multi-layered dialogue with real Kauaʻi ʻōʻō recordings, offering a glimpse into a richer, more intricate soundscape that vanished long before the last bird fell silent.
 
-Performances:
+Appearances:
 
 * [Reforesters Laboratory](https://reforesters.io/), 24.2-channel audio (Brooklyn, June 21-22, 2025)
 * [TechnoMirage](https://www.uaad.art/technomirage), 8-channel audio (Manhattan, September 21, 2025)

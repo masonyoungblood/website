@@ -568,6 +568,8 @@ M. Youngblood
 
 ## **Conference Talks**
 
+- Yale Graduate Music Symposium (New Haven, CT, Feb 2026): On the edge of music and language: whale songs as epistemic compass (w\/Marie Comuzzo)
+
 - Cultural Evolution Society Conference (Durham, UK, Sept 2024): Language-like efficiency and structure in house finch song
 
 - European Association of Archaeology Conference (Rome IT, Aug 2024): Statistical signals of copying are robust to time- and space-averaging
@@ -859,6 +861,14 @@ Brooklyn, NY
 - Web Technologies: HTML\/CSS, WordPress, GitHub, APIs
 
 # Artistic Output
+
+## **Involuntary Ghosts (Performance, 2026)**
+
+#summary[Habitat loss and rapid urbanization in Beijing are actively reshaping the landscape for native bird populations. Involuntary Ghosts is a 20-minute, four-channel spatial audio performance that imagines birds in this changing environment singing for their lost kin.]
+
+- MISE-EN\_PLACE, 4-channel audio (New York, NY, Feb 7, 2025)
+
+
 
 ## **Alaka'i 1777 (Installation\/Performance, 2025)**
 
