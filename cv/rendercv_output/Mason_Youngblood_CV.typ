@@ -78,7 +78,7 @@
   date: datetime(
     year: 2026,
     month: 2,
-    day: 10,
+    day: 12,
   ),
 )
 
@@ -1054,6 +1054,8 @@
   main-column-second-row: [
     - Postdoctoral Fellowship, Institute for Advanced Computational Science (2023-present)
     
+    - Summer Research Training, Methods in the Neuroscience of Drug Abuse, University of Texas at El Paso (2013): The role of dopamine D2 receptor in brain development and ethanol-induced behavioral disinhibition
+    
     - Science Undergraduate Research Fellowship (2012-2014): The epigenetic expression of dopamine receptor D4 in the deer mouse (#emph[Peromyscus])
     
   ],
@@ -1067,23 +1069,23 @@
   [
   ],
   main-column-second-row: [
-    - Institute for Advanced Computational Science, Seed Grant (2024, \$249,421): Dynamics of creativity in complex social networks
+    - Augustine Foundation (2026, #strong[\$9,072]): Alaka’i 1777---a sonic and visual resurrection
     
-    - Advancing Cultural Evolution, Outreach Grant (2023, \$1,625): Non-human cultural extinction
+    - Institute for Advanced Computational Science, Seed Grant (2024, #strong[\$249,421]): Dynamics of creativity in complex social networks
     
-    - Cultural Evolution Society Transformation Fund (2023, £17,774): Phylogenies of literature
+    - Advancing Cultural Evolution, Outreach Grant (2023, #strong[\$1,625]): Non-human cultural extinction
     
-    - Sigma Xi Grant-In-Aid of Research (2018, \$1,000): The neural basis and spatiotemporal dynamics of female preferences for male bird song
+    - Cultural Evolution Society Transformation Fund (2023, #strong[£17,774]): Phylogenies of literature
     
-    - Doctoral Student Mini-Grant, Queens College (2018, \$500): A Raspberry Pi-based, RFID-equipped birdfeeder for the remote monitoring of wild bird populations
+    - Sigma Xi Grant-In-Aid of Research (2018, #strong[\$1,000]): The neural basis and spatiotemporal dynamics of female preferences for male bird song
     
-    - Doctoral Student Research Grant, Graduate Center (2018, \$1,000): The neural basis and spatiotemporal dynamics of female preferences for male bird song
+    - Doctoral Student Mini-Grant, Queens College (2018, #strong[\$500]): A Raspberry Pi-based, RFID-equipped birdfeeder for the remote monitoring of wild bird populations
     
-    - Research Enhancement Award, Queens College (2017, \$6,000): The neural basis and spatiotemporal dynamics of female preferences for male bird song
+    - Doctoral Student Research Grant, Graduate Center (2018, #strong[\$1,000]): The neural basis and spatiotemporal dynamics of female preferences for male bird song
     
-    - #sym.ast.basic#h(0pt, weak: true) John Templeton Foundation (2016-2018, \$89,000): Towards a new synthesis for cultural evolution
+    - Research Enhancement Award, Queens College (2017, #strong[\$6,000]): The neural basis and spatiotemporal dynamics of female preferences for male bird song
     
-    - Summer Research Training, Methods in the Neuroscience of Drug Abuse, University of Texas at El Paso (2013): The role of dopamine D2 receptor in brain development and ethanol-induced behavioral disinhibition
+    - #sym.ast.basic#h(0pt, weak: true) John Templeton Foundation (2016-2018, #strong[\$89,000]): Towards a new synthesis for cultural evolution
     
   ],
 )
