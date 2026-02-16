@@ -10,7 +10,7 @@
 
 [LIFT #03: 14 February 2026](https://ra.co/events/2352571){ .md-button .md-button--primary }
 
-[Avian Annotations: 7 February 2026](https://www.eventbrite.com/e/spectrum-and-mise-en-place-present-avian-annotations-tickets-1981255208663)
+[Avian Annotations: 7 February 2026](https://www.eventbrite.com/e/spectrum-and-mise-en-place-present-avian-annotations-tickets-1981255208663){ .md-button .md-button--primary }
 
 [LIFT #02: 13 December 2025](https://ra.co/events/2311484){ .md-button .md-button--primary }
 
