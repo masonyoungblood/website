@@ -78,7 +78,7 @@
   date: datetime(
     year: 2026,
     month: 2,
-    day: 12,
+    day: 19,
   ),
 )
 
@@ -1465,6 +1465,8 @@
     - Something Fierce Festival at Flux Factory, 8-channel audio (Queens, NY, Nov 22-23, 2025)
     
     - Oberlin College, Technology in Music and Related Art, 16-channel audio (Oberlin, OH, Dec 5, 2025)
+    
+    - EarFest at Stony Brook University, 4-channel audio (Long Island, NY, Feb 19, 2026)
     
   ],
 )

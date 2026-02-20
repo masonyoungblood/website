@@ -28,6 +28,7 @@ Appearances:
 * 25 Saint James Place, 8-channel audio (Manhattan, November 20, 2025)
 * [Something Fierce Festival](https://www.ameliamarzec.com/somethingfierce/) at [Flux Factory](https://www.fluxfactory.org/), 8-channel audio (Queens, November 22-23, 2025)
 * [Technology in Music and Related Art](https://www.oberlin.edu/timara) at [Oberlin College](https://www.oberlin.edu/), 16-channel audio (Ohio, December 5, 2025)
+* [EarFest](https://calendar.stonybrook.edu/site/cas/event/earfest/) at [Stony Brook University](https://www.stonybrook.edu/), 4-channel audio (Long Island, February 19, 2026)
 * [UPCOMING] [Ortega y Gasset Projects](https://www.oygprojects.com/), 8-channel audio (Brooklyn, TBD 2026)
 * [UPCOMING] [New Ear](https://new-ear.org/), 8-channel audio (Manhattan, TBD 2026)
 

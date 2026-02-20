@@ -888,6 +888,8 @@ Brooklyn, NY
 
 - Oberlin College, Technology in Music and Related Art, 16-channel audio (Oberlin, OH, Dec 5, 2025)
 
+- EarFest at Stony Brook University, 4-channel audio (Long Island, NY, Feb 19, 2026)
+
 
 
 ## **Deep Listening for Nonhuman Perspective-Taking (Workshop, 2024)**
