@@ -2,6 +2,8 @@
 
 ## Journal Articles
 
+* **Youngblood, M.** (2026). Zebra finches transform random songs to exhibit linguistic laws. *Animal Cognition*. [https://doi.org/10.1007/s10071-026-02058-0](https://doi.org/10.1007/s10071-026-02058-0)
+
 * **Youngblood, M.**, & Passmore, S. (2026). Simulation-based inference with deep learning shows speed climbers combine innovation and copying to improve performance. *Proceedings of the Royal Society B*, *293*(2062), 20251433. [https://doi.org/10.1098/rspb.2025.1433](https://doi.org/10.1098/rspb.2025.1433)
 
 * Wascher, C., & **Youngblood, M.** (2025). Vocal efficiency in crows. *Animal Cognition*, *28*(75). [https://doi.org/10.1007/s10071-025-01985-8](https://doi.org/10.1007/s10071-025-01985-8)
@@ -42,13 +44,11 @@
 
 ## Book Chapters
 
-* **Youngblood, M.**, Ozaki, Y., & Savage, P.E. (2023). Cultural evolution and music. *The Oxford Handbook of Cultural Evolution*. [https://doi.org/10.1093/oxfordhb/9780198869252.013.42](https://doi.org/10.1093/oxfordhb/9780198869252.013.42)
+* **Youngblood, M.**, Ozaki, Y., & Savage, P.E. (2023). Cultural evolution and music. *The Oxford Handbook of Cultural Evolution*. Oxford University Press. [https://doi.org/10.1093/oxfordhb/9780198869252.013.42](https://doi.org/10.1093/oxfordhb/9780198869252.013.42)
 
 ## Preprints
 
 * **Youngblood, M.** (2025). chatter: a Python library for applying information theory and AI/ML models to animal communication. *arXiv*. [https://doi.org/10.48550/arXiv.2512.17935](https://doi.org/10.48550/arXiv.2512.17935)
-
-* **Youngblood, M.** (2025). Zebra finches transform random songs to exhibit linguistic laws. *PsyArXiv*. [https://doi.org/10.31234/osf.io/m6z23_v1](https://doi.org/10.31234/osf.io/m6z23_v1)
 
 * **Youngblood, M.**, Marie, A., & Morin, O. (2025). Status quo conservatism: A theory and a model. *SocArXiv*. [https://osf.io/ngb58](https://osf.io/ngb58)
 

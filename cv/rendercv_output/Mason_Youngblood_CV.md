@@ -166,7 +166,17 @@ Fall 2015 --  Spring 2016
 
 ## **JOURNAL ARTICLES**
 
-(#emph[n] = 19)
+(#emph[n] = 20)
+
+
+
+## **Zebra finches transform random songs to exhibit linguistic laws**
+
+2026
+
+M. Youngblood
+
+[https://doi.org/10.1007/s10071-026-02058-0](https://doi.org/https://doi.org/10.1007/s10071-026-02058-0) (Animal Cognition)
 
 
 
@@ -378,7 +388,7 @@ M. Youngblood, Y. Ozaki, P.E. Savage
 
 ## **PREPRINTS**
 
-(#emph[n] = 5)
+(#emph[n] = 4)
 
 
 
@@ -389,16 +399,6 @@ M. Youngblood, Y. Ozaki, P.E. Savage
 M. Youngblood
 
 [https://doi.org/10.48550/arXiv.2512.17935](https://doi.org/https://doi.org/10.48550/arXiv.2512.17935) (arXiv)
-
-
-
-## **Zebra finches transform random songs to exhibit linguistic laws**
-
-2025
-
-M. Youngblood
-
-[https://doi.org/10.31234/osf.io/m6z23_v1](https://doi.org/https://doi.org/10.31234/osf.io/m6z23_v1) (PsyArXiv)
 
 
 
@@ -872,23 +872,29 @@ Brooklyn, NY
 
 
 
-## **Alaka'i 1777 (Installation\/Performance, 2025)**
+## **Alaka’i 1777 (Installation\/Performance, 2025)**
 
-#summary[Alaka'i 1777 is an immersive sound installation that uses machine learning to reconstruct the lost song culture of the Kaua’i ’ō’ō, an extinct Hawaiian bird, by weaving together archival recordings with interacting artificial agents.]
+#summary[Alaka’i 1777 is an immersive audiovisual installation that reconstructs the lost song culture of the Kaua’i ’ō’ō, an extinct Hawaiian bird once native to the Alaka’i swamp.]
 
-- Reforesters Laboratory, 24.2-channel audio (Brooklyn, NY, June 21-22, 2025)
+- New Museum, NEW INC Media Lab, LED wall video and 8.1-channel audio (New York, NY, Mar 13-23, 2026)
 
-- TechnoMirage, 8-channel audio (New York, NY, Sept 21, 2025)
+- ’Imiloa Astronomy Center, Planetarium, 360 fulldome video and 5.1-channel audio (Hawaii, Mar 17, 2026)
 
-- NEW INC and the New Museum's Creative Science Dinner at the Prospect Park Boathouse, 8-channel audio (Brooklyn, NY, Oct 14, 2025)
-
-- 25 Saint James Place, 8-channel audio (New York, NY, Nov 20, 2025)
-
-- Something Fierce Festival at Flux Factory, 8-channel audio (Queens, NY, Nov 22-23, 2025)
+- EarFest at Stony Brook University, 4-channel audio (Long Island, NY, Feb 19, 2026)
 
 - Oberlin College, Technology in Music and Related Art, 16-channel audio (Oberlin, OH, Dec 5, 2025)
 
-- EarFest at Stony Brook University, 4-channel audio (Long Island, NY, Feb 19, 2026)
+- Something Fierce Festival at Flux Factory, 8-channel audio (Queens, NY, Nov 22-23, 2025)
+
+- 25 Saint James Place, 8-channel audio (New York, NY, Nov 20, 2025)
+
+- NEW INC and the New Museum's Creative Science Dinner at the Prospect Park
+
+- Boathouse, 8-channel audio (Brooklyn, NY, Oct 14, 2025)
+
+- TechnoMirage, 8-channel audio (New York, NY, Sept 21, 2025)
+
+- Reforesters Laboratory, 24.2-channel audio (Brooklyn, NY, June 21-22, 2025)
 
 
 
@@ -896,15 +902,15 @@ Brooklyn, NY
 
 #summary[Deep Listening for Nonhuman Perspective-Taking is a participatory, immersive sound workshop where participants listen deeply to diverse sounds of nonhuman life—infrasonic booms of whales, drumming displays of spiders, and complex songs of endangered and extinct birds.]
 
-- University of St. Andrews (St. Andrews, Scotland, July 10, 2024)
-
-- Hex House (Brooklyn, NY, Dec 7, 2024)
-
-- The Bakery (Brooklyn, NY, Mar 29, 2025)
+- 25 Saint James Place (New York, NY, Nov 20, 2025)
 
 - Rutgers Art Network at Rutgers University (New Brunswick, NJ, Oct 29, 2025)
 
-- 25 Saint James Place (New York, NY, Nov 20, 2025)
+- The Bakery (Brooklyn, NY, Mar 29, 2025)
+
+- Hex House (Brooklyn, NY, Dec 7, 2024)
+
+- University of St. Andrews (St. Andrews, Scotland, July 10, 2024)
 
 
 

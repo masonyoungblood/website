@@ -18,21 +18,21 @@ Appearances:
 ![alakai](images/art/alakai_1777_isaiah_winters_2025.jpg)
 <small>(Credit: Isaiah Winters, 2025)</small>
 
-*Alaka'i 1777* is an immersive sound installation that reconstructs the lost song culture of the Kauaʻi ʻōʻō (kuh-wai-ee oh-oh), an extinct Hawaiian bird, by weaving together archival recordings with interacting artificial agents. 1777 is the last year that the Alaka'i swamp, the Kauaʻi ʻōʻō's ancestral habitat, was unaffected by European contact. Using a mathematical model of the avian vocal organ (the syrinx), trained on the few surviving recordings of the species, the work generates imagined songs—speculative echoes of what the Kauaʻi ʻōʻō's vocal repertoire may have been before population decline erased its complexity. As species dwindle, their songs, like human languages, become simpler and less varied, fading with each generation. To give listeners a deeper sense of this lost world, the entire soundscape is slowed down, allowing them to experience the songs as the original inhabitants of Alaka'i may have perceived them. Within this expanded space, artificial agents act as spectral ancestors, engaging in a dynamic, multi-layered dialogue with real Kauaʻi ʻōʻō recordings, offering a glimpse into a richer, more intricate soundscape that vanished long before the last bird fell silent.
+Alakaʻi 1777 is an immersive audiovisual installation that reconstructs the lost song culture of the Kauaʻi ʻōʻō, an extinct Hawaiian bird once native to the Alakaʻi swamp. The work is inspired by a simple premise—when populations collapse, so do their learned traditions and vocal cultures that have built up over generations. In Alakaʻi 1777, interacting artificial agents sing from a mathematical model of the avian vocal organ (the syrinx), trained on the few surviving recordings of the species. These voices are nestled within site-specific ecological data from the ʻōʻō’s last known habitat: LiDAR scans of the forest, spatial audio recordings of the dawn chorus, and urbanization histories rendered as sound and image. To give listeners a deeper sense of this lost world, the entire soundscape is slowed down, allowing them to experience the songs as the original inhabitants of Alakaʻi may have perceived them. Within this expanded space, artificial agents act as spectral ancestors, engaging in a dynamic, multi-layered dialogue with real Kauaʻi ʻōʻō recordings, offering a glimpse into a richer, more intricate soundscape that vanished long before the last bird fell silent.
 
 Appearances:
 
-* [Reforesters Laboratory](https://reforesters.io/), 24.2-channel audio (Brooklyn, June 21-22, 2025)
-* [TechnoMirage](https://www.uaad.art/technomirage), 8-channel audio (Manhattan, September 21, 2025)
-* [NEW INC](https://www.newmuseum.org/new-inc/) and the [New Museum](https://www.newmuseum.org/)'s Creative Science Dinner at the [Prospect Park Boathouse](https://www.prospectpark.org/visit-the-park/weddings-and-special-events/boathouse/), 8-channel audio (Brooklyn, October 14, 2025)
-* 25 Saint James Place, 8-channel audio (Manhattan, November 20, 2025)
-* [Something Fierce Festival](https://www.ameliamarzec.com/somethingfierce/) at [Flux Factory](https://www.fluxfactory.org/), 8-channel audio (Queens, November 22-23, 2025)
-* [Technology in Music and Related Art](https://www.oberlin.edu/timara) at [Oberlin College](https://www.oberlin.edu/), 16-channel audio (Ohio, December 5, 2025)
+* [New Museum](https://newmuseum.org/), LED wall video and 8.1-channel audio (New York, NY, Mar 13-23, 2026)
+* Planetarium at [ʻImiloa Astronomy Center](https://imiloahawaii.org/), 360 fulldome video and 5.1-channel audio (Hilo, HI, March 17, 2026)
 * [EarFest](https://calendar.stonybrook.edu/site/cas/event/earfest/) at [Stony Brook University](https://www.stonybrook.edu/), 4-channel audio (Long Island, February 19, 2026)
-* [UPCOMING] [Ortega y Gasset Projects](https://www.oygprojects.com/), 8-channel audio (Brooklyn, TBD 2026)
-* [UPCOMING] [New Ear](https://new-ear.org/), 8-channel audio (Manhattan, TBD 2026)
+* [Technology in Music and Related Art](https://www.oberlin.edu/timara) at [Oberlin College](https://www.oberlin.edu/), 16-channel audio (Ohio, December 5, 2025)
+* [Something Fierce Festival](https://www.ameliamarzec.com/somethingfierce/) at [Flux Factory](https://www.fluxfactory.org/), 8-channel audio (Queens, November 22-23, 2025)
+* 25 Saint James Place, 8-channel audio (Manhattan, November 20, 2025)
+* [NEW INC](https://www.newmuseum.org/new-inc/) and the [New Museum](https://www.newmuseum.org/)'s Creative Science Dinner at the [Prospect Park Boathouse](https://www.prospectpark.org/visit-the-park/weddings-and-special-events/boathouse/), 8-channel audio (Brooklyn, October 14, 2025)
+* [TechnoMirage](https://www.uaad.art/technomirage), 8-channel audio (Manhattan, September 21, 2025)
+* [Reforesters Laboratory](https://reforesters.io/), 24.2-channel audio (Brooklyn, June 21-22, 2025)
 
-*Made possible by the [Cultural Evolution Society](https://culturalevolutionsociety.org/), the [Diverse Intelligences Summer Institute](https://disi.org/), [Cornell's Macaulay Library](https://www.macaulaylibrary.org/), and [NEW INC](https://www.newmuseum.org/new-inc/).*
+*Made possible by the [Augustine Foundation](https://www.augustinestrings.com/), [Cultural Evolution Society](https://culturalevolutionsociety.org/), the [Diverse Intelligences Summer Institute](https://disi.org/), [Cornell's Macaulay Library](https://www.macaulaylibrary.org/), and [NEW INC](https://www.newmuseum.org/new-inc/).*
 
 ### *Deep Listening for Nonhuman Perspective-Taking* (Workshop, 2024)
 
@@ -42,11 +42,11 @@ Appearances:
 
 Workshops:
 
-* [University of St. Andrews](https://www.st-andrews.ac.uk/) (Scotland, July 10, 2024)
-* [Hex House](https://hexhouse.studio/) (Brooklyn, December 7, 2024)
-* [The Bakery](https://www.instagram.com/bake_some_bread/) (Brooklyn, March 29, 2025)
-* Rutgers Art Network at [Rutgers University](https://www.rutgers.edu/) (New Jersey, October 29, 2025)
 * 25 Saint James Place, 8-channel audio (Manhattan, November 20, 2025)
+* Rutgers Art Network at [Rutgers University](https://www.rutgers.edu/) (New Jersey, October 29, 2025)
+* [The Bakery](https://www.instagram.com/bake_some_bread/) (Brooklyn, March 29, 2025)
+* [Hex House](https://hexhouse.studio/) (Brooklyn, December 7, 2024)
+* [University of St. Andrews](https://www.st-andrews.ac.uk/) (Scotland, July 10, 2024)
 
 *Made possible by the [Diverse Intelligences Summer Institute](https://disi.org/).*
 

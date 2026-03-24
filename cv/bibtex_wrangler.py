@@ -1,3 +1,10 @@
+import pyparsing as pp
+
+# bibtexparser 1.4.x uses pp.DelimitedList (pyparsing 2.x API). pyparsing 3.x
+# renamed it to delimited_list / delimitedList only.
+if not hasattr(pp, "DelimitedList"):
+    pp.DelimitedList = pp.delimited_list
+
 import bibtexparser
 from bibtexparser.bparser import BibTexParser
 from bibtexparser.customization import convert_to_unicode

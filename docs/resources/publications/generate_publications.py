@@ -3,6 +3,13 @@
 Convert BibTeX citations to APA-formatted markdown publications page.
 """
 
+import pyparsing as pp
+
+# bibtexparser 1.4.x uses pp.DelimitedList (pyparsing 2.x API). pyparsing 3.x
+# renamed it to delimited_list / delimitedList only.
+if not hasattr(pp, "DelimitedList"):
+    pp.DelimitedList = pp.delimited_list
+
 import bibtexparser
 try:
     from bibtexparser.bparser import BibTexParser
