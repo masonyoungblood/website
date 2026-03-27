@@ -6,6 +6,8 @@
 
 ## Events
 
+[LIFT #04: 4 April 2026](https://ra.co/events/2404116){ .md-button .md-button--primary }
+
 [Reed Circuit: 28 February 2026](https://luma.com/mldfcmth){ .md-button .md-button--primary }
 
 [LIFT #03: 14 February 2026](https://ra.co/events/2352571){ .md-button .md-button--primary }
