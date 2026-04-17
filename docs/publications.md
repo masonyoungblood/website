@@ -2,7 +2,9 @@
 
 ## Journal Articles
 
-* **Youngblood, M.** (2026). Zebra finches transform random songs to exhibit linguistic laws. *Animal Cognition*. [https://doi.org/10.1007/s10071-026-02058-0](https://doi.org/10.1007/s10071-026-02058-0)
+* Sobchuk, O., & **Youngblood, M.** (2026). Cultural evolution - of the arts. *Evolutionary Human Sciences*. [https://doi.org/10.1017/ehs.2026.10048](https://doi.org/10.1017/ehs.2026.10048)
+
+* **Youngblood, M.** (2026). Zebra finches transform random songs to exhibit linguistic laws. *Animal Cognition*, *29*(35). [https://doi.org/10.1007/s10071-026-02058-0](https://doi.org/10.1007/s10071-026-02058-0)
 
 * **Youngblood, M.**, & Passmore, S. (2026). Simulation-based inference with deep learning shows speed climbers combine innovation and copying to improve performance. *Proceedings of the Royal Society B*, *293*(2062), 20251433. [https://doi.org/10.1098/rspb.2025.1433](https://doi.org/10.1098/rspb.2025.1433)
 

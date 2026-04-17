@@ -2,6 +2,16 @@
 
 ## Sound Art
 
+### *Reed Circuit* (Performance, 2026)
+
+![reed_circuit](images/art/reed_circuit_reforesters_2026.png)
+
+For nearly a decade, Merlyn Kotljar has been documenting the songs of the Blyth's reed warbler, a species whose intricate vocalizations rival those of any celebrated songbird. "Reed Circuits" puts that archive to work. In this performance, David Rothenberg plays bass clarinet alongside an AI agent trained on Kotljar's recordings, and the two do what birds in the wild do: listen, adapt, and converge toward a shared repertoire. What begins as a duet between strangers becomes, over the course of the performance, something closer to a dialect—a musical map negotiated in real time between a human and a machine, modeled on the dynamics of avian communication.
+
+Appearances:
+
+* [Reforesters Laboratory](https://reforesters.io/), 24.2-channel audio (Brooklyn, NY, June 21-22, 2025)
+
 ### *Involuntary Ghosts* (Performance, 2026)
 
 ![involuntary_ghosts](images/art/involuntary_ghosts_james_tuite_2026.jpg)
@@ -11,7 +21,7 @@ Habitat loss and rapid urbanization in Beijing are actively reshaping the landsc
 
 Appearances:
 
-* [MISE-EN_PLACE](https://www.mise-en.org/), 4-channel audio (Manhattan, February 7, 2025)
+* [MISE-EN_PLACE](https://www.mise-en.org/), 4-channel audio (New York, NY, February 7, 2025)
 
 ### *Alaka'i 1777* (Installation/Performance, 2025)
 
@@ -22,15 +32,17 @@ Alakaʻi 1777 is an immersive audiovisual installation that reconstructs the los
 
 Appearances:
 
-* [New Museum](https://newmuseum.org/), LED wall video and 8.1-channel audio (New York, NY, Mar 13-23, 2026)
+* [SUNY AI Symposium](https://www.stonybrook.edu/ai_symposium/) at [Stony Brook University](https://www.stonybrook.edu/), projection and 2-channel audio (Stony Brook, NY, April 14-15, 2026)
+* [Penumbra](https://www.artwrld.com/exhibit/penumbra-beyond-the-uncanny-valley) at [Ortega y Gasset Projects](https://www.oygprojects.com/), projection and 4.1-channel audio (Brooklyn, NY, March 7, 2026)
+* [New Museum](https://newmuseum.org/), LED wall video and 8.1-channel audio (New York, NY, March 13-23, 2026)
 * Planetarium at [ʻImiloa Astronomy Center](https://imiloahawaii.org/), 360 fulldome video and 5.1-channel audio (Hilo, HI, March 17, 2026)
-* [EarFest](https://calendar.stonybrook.edu/site/cas/event/earfest/) at [Stony Brook University](https://www.stonybrook.edu/), 4-channel audio (Long Island, February 19, 2026)
-* [Technology in Music and Related Art](https://www.oberlin.edu/timara) at [Oberlin College](https://www.oberlin.edu/), 16-channel audio (Ohio, December 5, 2025)
-* [Something Fierce Festival](https://www.ameliamarzec.com/somethingfierce/) at [Flux Factory](https://www.fluxfactory.org/), 8-channel audio (Queens, November 22-23, 2025)
+* [EarFest](https://calendar.stonybrook.edu/site/cas/event/earfest/) at [Stony Brook University](https://www.stonybrook.edu/), 4-channel audio (Stony Brook, NY, February 19, 2026)
+* [Technology in Music and Related Art](https://www.oberlin.edu/timara) at [Oberlin College](https://www.oberlin.edu/), 16-channel audio (Oberlin, OH, December 5, 2025)
+* [Something Fierce Festival](https://www.ameliamarzec.com/somethingfierce/) at [Flux Factory](https://www.fluxfactory.org/), 8-channel audio (Queens, NY, November 22-23, 2025)
 * 25 Saint James Place, 8-channel audio (Manhattan, November 20, 2025)
-* [NEW INC](https://www.newmuseum.org/new-inc/) and the [New Museum](https://www.newmuseum.org/)'s Creative Science Dinner at the [Prospect Park Boathouse](https://www.prospectpark.org/visit-the-park/weddings-and-special-events/boathouse/), 8-channel audio (Brooklyn, October 14, 2025)
-* [TechnoMirage](https://www.uaad.art/technomirage), 8-channel audio (Manhattan, September 21, 2025)
-* [Reforesters Laboratory](https://reforesters.io/), 24.2-channel audio (Brooklyn, June 21-22, 2025)
+* [NEW INC](https://www.newmuseum.org/new-inc/) and the [New Museum](https://www.newmuseum.org/)'s Creative Science Dinner at the [Prospect Park Boathouse](https://www.prospectpark.org/visit-the-park/weddings-and-special-events/boathouse/), 8-channel audio (Brooklyn, NY, October 14, 2025)
+* [TechnoMirage](https://www.uaad.art/technomirage), 8-channel audio (New York, NY, September 21, 2025)
+* [Reforesters Laboratory](https://reforesters.io/), 24.2-channel audio (Brooklyn, NY, June 21-22, 2025)
 
 *Made possible by the [Augustine Foundation](https://www.augustinestrings.com/), [Cultural Evolution Society](https://culturalevolutionsociety.org/), the [Diverse Intelligences Summer Institute](https://disi.org/), [Cornell's Macaulay Library](https://www.macaulaylibrary.org/), and [NEW INC](https://www.newmuseum.org/new-inc/).*
 
@@ -42,11 +54,11 @@ Appearances:
 
 Workshops:
 
-* 25 Saint James Place, 8-channel audio (Manhattan, November 20, 2025)
-* Rutgers Art Network at [Rutgers University](https://www.rutgers.edu/) (New Jersey, October 29, 2025)
-* [The Bakery](https://www.instagram.com/bake_some_bread/) (Brooklyn, March 29, 2025)
-* [Hex House](https://hexhouse.studio/) (Brooklyn, December 7, 2024)
-* [University of St. Andrews](https://www.st-andrews.ac.uk/) (Scotland, July 10, 2024)
+* 25 Saint James Place, 8-channel audio (New York, NY, November 20, 2025)
+* Rutgers Art Network at [Rutgers University](https://www.rutgers.edu/) (New Brunswick, NJ, October 29, 2025)
+* [The Bakery](https://www.instagram.com/bake_some_bread/) (Brooklyn, NY, March 29, 2025)
+* [Hex House](https://hexhouse.studio/) (Brooklyn, NY, December 7, 2024)
+* [University of St. Andrews](https://www.st-andrews.ac.uk/) (St. Andrews, Scotland, July 10, 2024)
 
 *Made possible by the [Diverse Intelligences Summer Institute](https://disi.org/).*
 

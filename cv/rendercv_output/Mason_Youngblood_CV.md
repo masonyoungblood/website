@@ -166,7 +166,17 @@ Fall 2015 --  Spring 2016
 
 ## **JOURNAL ARTICLES**
 
-(#emph[n] = 20)
+(#emph[n] = 21)
+
+
+
+## **Cultural evolution - of the arts**
+
+2026
+
+O. Sobchuk, M. Youngblood
+
+[https://doi.org/10.1017/ehs.2026.10048](https://doi.org/https://doi.org/10.1017/ehs.2026.10048) (Evolutionary Human Sciences)
 
 
 
@@ -200,13 +210,13 @@ C. Wascher, M. Youngblood
 
 
 
-## **Temporal stability in songs across the breeding range of #emph[Geothlypis philadelphia] (mourning warbler) may be due to learning fidelity and transmission biases**
+## **Convergent evolution in whale and human vocal cultures**
 
 2025
 
-J. Pitocchelli, A. Albina, R.A. Bentley, D. Guerra, M. Youngblood
+A. Whiten, M. Youngblood
 
-[https://doi.org/10.1093/ornithology/ukae046](https://doi.org/https://doi.org/10.1093/ornithology/ukae046) (Ornithology)
+[https://doi.org/10.1126/science.adv2318](https://doi.org/https://doi.org/10.1126/science.adv2318) (Science)
 
 
 
@@ -220,13 +230,13 @@ M. Youngblood
 
 
 
-## **Convergent evolution in whale and human vocal cultures**
+## **Temporal stability in songs across the breeding range of #emph[Geothlypis philadelphia] (mourning warbler) may be due to learning fidelity and transmission biases**
 
 2025
 
-A. Whiten, M. Youngblood
+J. Pitocchelli, A. Albina, R.A. Bentley, D. Guerra, M. Youngblood
 
-[https://doi.org/10.1126/science.adv2318](https://doi.org/https://doi.org/10.1126/science.adv2318) (Science)
+[https://doi.org/10.1093/ornithology/ukae046](https://doi.org/https://doi.org/10.1093/ornithology/ukae046) (Ornithology)
 
 
 
@@ -240,16 +250,6 @@ A. Kornreich, D. Partridge, M. Youngblood, K. Parkins
 
 
 
-## **Language-like efficiency and structure in house finch song**
-
-2024
-
-M. Youngblood
-
-[https://doi.org/10.1098/rspb.2024.0250](https://doi.org/https://doi.org/10.1098/rspb.2024.0250) (Proceedings of the Royal Society B)
-
-
-
 ## **First-mover advantage in music**
 
 2024
@@ -260,13 +260,13 @@ O. Sobchuk, M. Youngblood, O. Morin
 
 
 
-## **Statistical signals of copying are robust to time-and space-averaging**
+## **Language-like efficiency and structure in house finch song**
 
-2023
+2024
 
-M. Youngblood, H. Miton, O. Morin
+M. Youngblood
 
-[https://doi.org/10.1017/ehs.2023.5](https://doi.org/https://doi.org/10.1017/ehs.2023.5) (Evolutionary Human Sciences)
+[https://doi.org/10.1098/rspb.2024.0250](https://doi.org/https://doi.org/10.1098/rspb.2024.0250) (Proceedings of the Royal Society B)
 
 
 
@@ -277,6 +277,16 @@ M. Youngblood, H. Miton, O. Morin
 M. Youngblood, J.M. Stubbersfield, O. Morin, R. Glassman, A. Acerbi
 
 [https://doi.org/10.1057/s41599-023-02106-x](https://doi.org/https://doi.org/10.1057/s41599-023-02106-x) (Humanities and Social Sciences Communications)
+
+
+
+## **Statistical signals of copying are robust to time-and space-averaging**
+
+2023
+
+M. Youngblood, H. Miton, O. Morin
+
+[https://doi.org/10.1017/ehs.2023.5](https://doi.org/https://doi.org/10.1017/ehs.2023.5) (Evolutionary Human Sciences)
 
 
 
@@ -330,13 +340,13 @@ M. Youngblood
 
 
 
-## **Cultural transmission modes of music sampling traditions remain stable despite delocalization in the digital age**
+## **A Raspberry Pi-based, RFID-equipped birdfeeder for the remote monitoring of wild bird populations**
 
 2019
 
 M. Youngblood
 
-[https://doi.org/10.1371/journal.pone.0211860](https://doi.org/https://doi.org/10.1371/journal.pone.0211860) (PLoS ONE)
+[https://doi.org/10.1080/03078698.2019.1759908](https://doi.org/https://doi.org/10.1080/03078698.2019.1759908) (Ringing & Migration)
 
 
 
@@ -350,13 +360,13 @@ M. Youngblood
 
 
 
-## **A Raspberry Pi-based, RFID-equipped birdfeeder for the remote monitoring of wild bird populations**
+## **Cultural transmission modes of music sampling traditions remain stable despite delocalization in the digital age**
 
 2019
 
 M. Youngblood
 
-[https://doi.org/10.1080/03078698.2019.1759908](https://doi.org/https://doi.org/10.1080/03078698.2019.1759908) (Ringing & Migration)
+[https://doi.org/10.1371/journal.pone.0211860](https://doi.org/https://doi.org/10.1371/journal.pone.0211860) (PLoS ONE)
 
 
 
@@ -481,6 +491,8 @@ M. Youngblood
 # Presentations
 
 ## **Invited Talks**
+
+- New School, Multispecies Lab Ideas Festival (New York, NY, Mar 2026): Alaka’i 1777---using immersive sound to communicate the nonhuman cultural extinction crisis
 
 - Stony Brook University Libraries (Stony Brook, NY, Dec 2025): From digitization to discovery---the frontier of AI in research libraries
 
@@ -608,7 +620,9 @@ M. Youngblood
 
 ## **Awards**
 
-- Finalist, Richerson Award for Best PhD in Cultural Evolution (2022)
+- New Investigator Award, Cultural Evolution Society (2026)
+
+- Finalist, Richerson Award for Best PhD, Cultural Evolution Society (2022)
 
 
 
@@ -864,6 +878,14 @@ Brooklyn, NY
 
 # Artistic Output
 
+## **Reed Circuit (Performance, 2026)**
+
+#summary[In this performance, David Rothenberg plays bass clarinet alongside an AI agent trained on recordings of the Blyth's reed warbler, and the two do what birds in the wild do---listen, adapt, and converge toward a shared repertoire.]
+
+- Reforesters Laboratory, 24.2-channel audio (Brooklyn, NY, Feb 28, 2025)
+
+
+
 ## **Involuntary Ghosts (Performance, 2026)**
 
 #summary[Habitat loss and rapid urbanization in Beijing are actively reshaping the landscape for native bird populations. Involuntary Ghosts is a 20-minute, four-channel spatial audio performance that imagines birds in this changing environment singing for their lost kin.]
@@ -876,9 +898,13 @@ Brooklyn, NY
 
 #summary[Alaka’i 1777 is an immersive audiovisual installation that reconstructs the lost song culture of the Kaua’i ’ō’ō, an extinct Hawaiian bird once native to the Alaka’i swamp.]
 
+- SUNY AI Symposium at Stony Brook University, projection and 2-channel audio (Stony Brook, NY, Apr 14-15, 2026)
+
+- Penumbra at Ortega y Gasset Projects, projection and 4.1-channel audio (Brooklyn, NY, Mar 7, 2026)
+
 - New Museum, NEW INC Media Lab, LED wall video and 8.1-channel audio (New York, NY, Mar 13-23, 2026)
 
-- ’Imiloa Astronomy Center, Planetarium, 360 fulldome video and 5.1-channel audio (Hawaii, Mar 17, 2026)
+- ’Imiloa Astronomy Center, Planetarium, 360 fulldome video and 5.1-channel audio (Hilo, HI, Mar 17, 2026)
 
 - EarFest at Stony Brook University, 4-channel audio (Long Island, NY, Feb 19, 2026)
 
@@ -888,9 +914,7 @@ Brooklyn, NY
 
 - 25 Saint James Place, 8-channel audio (New York, NY, Nov 20, 2025)
 
-- NEW INC and the New Museum's Creative Science Dinner at the Prospect Park
-
-- Boathouse, 8-channel audio (Brooklyn, NY, Oct 14, 2025)
+- NEW INC and the New Museum's Creative Science Dinner at the Prospect Park Boathouse, 8-channel audio (Brooklyn, NY, Oct 14, 2025)
 
 - TechnoMirage, 8-channel audio (New York, NY, Sept 21, 2025)
 

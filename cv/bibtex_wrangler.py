@@ -91,9 +91,15 @@ def bibtex_to_rendercv_yaml(bibtex_source, my_name="Mason Youngblood"):
                     unique_entries.append(entry)
         
         entries = unique_entries
-        
-        # Sort entries: Year (desc), then Title
-        entries.sort(key=lambda x: (x.get('year', '0000'), x.get('title', '')), reverse=True)
+
+        # Sort: newest year first; within the same year, keep citations.bib order (top of
+        # section first). Title-based tie-break was surprising when new entries were added
+        # at the top of the file but appeared mid-list.
+        for i, entry in enumerate(entries):
+            entry['_source_order'] = i
+        entries.sort(key=lambda x: (-_year_as_int(x.get('year')), x['_source_order']))
+        for entry in entries:
+            entry.pop('_source_order', None)
         
         count = len(entries)
 
@@ -171,6 +177,17 @@ def clean_tex(text):
     text = text.replace('\n', ' ')
     text = re.sub(r'\s+', ' ', text).strip()
     return text
+
+def _year_as_int(year_val):
+    """Coerce BibTeX year to int for sorting (avoids str/int comparison bugs)."""
+    if year_val is None or year_val == '':
+        return 0
+    if isinstance(year_val, int):
+        return year_val
+    try:
+        return int(str(year_val).strip())
+    except ValueError:
+        return 0
 
 def update_cv_yaml(bibtex_file, cv_yaml_file, my_name="Mason Youngblood"):
     """

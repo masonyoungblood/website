@@ -150,7 +150,14 @@ cv:
     publications:
     - title: JOURNAL ARTICLES
       authors:
-      - (*n* = 20)
+      - (*n* = 21)
+    - title: Cultural evolution - of the arts
+      authors:
+      - O. Sobchuk
+      - M. Youngblood
+      journal: Evolutionary Human Sciences
+      date: '2026'
+      doi: https://doi.org/10.1017/ehs.2026.10048
     - title: Zebra finches transform random songs to exhibit linguistic laws
       authors:
       - M. Youngblood
@@ -172,6 +179,19 @@ cv:
       journal: Animal Cognition
       date: '2025'
       doi: https://doi.org/10.1007/s10071-025-01985-8
+    - title: Convergent evolution in whale and human vocal cultures
+      authors:
+      - A. Whiten
+      - M. Youngblood
+      journal: Science
+      date: '2025'
+      doi: https://doi.org/10.1126/science.adv2318
+    - title: Language-like efficiency in whale communication
+      authors:
+      - M. Youngblood
+      journal: Science Advances
+      date: '2025'
+      doi: https://doi.org/10.1126/sciadv.ads6014
     - title: Temporal stability in songs across the breeding range of *Geothlypis
         philadelphia* (mourning warbler) may be due to learning fidelity and transmission
         biases
@@ -184,19 +204,6 @@ cv:
       journal: Ornithology
       date: '2025'
       doi: https://doi.org/10.1093/ornithology/ukae046
-    - title: Language-like efficiency in whale communication
-      authors:
-      - M. Youngblood
-      journal: Science Advances
-      date: '2025'
-      doi: https://doi.org/10.1126/sciadv.ads6014
-    - title: Convergent evolution in whale and human vocal cultures
-      authors:
-      - A. Whiten
-      - M. Youngblood
-      journal: Science
-      date: '2025'
-      doi: https://doi.org/10.1126/science.adv2318
     - title: Rehabilitation outcomes of bird-building collision victims in the Northeastern
         United States
       authors:
@@ -207,12 +214,6 @@ cv:
       journal: PLoS ONE
       date: '2024'
       doi: https://doi.org/10.1371/journal.pone.0306362
-    - title: Language-like efficiency and structure in house finch song
-      authors:
-      - M. Youngblood
-      journal: Proceedings of the Royal Society B
-      date: '2024'
-      doi: https://doi.org/10.1098/rspb.2024.0250
     - title: First-mover advantage in music
       authors:
       - O. Sobchuk
@@ -221,14 +222,12 @@ cv:
       journal: EPJ Data Science
       date: '2024'
       doi: https://doi.org/10.1140/epjds/s13688-024-00476-z
-    - title: Statistical signals of copying are robust to time-and space-averaging
+    - title: Language-like efficiency and structure in house finch song
       authors:
       - M. Youngblood
-      - H. Miton
-      - O. Morin
-      journal: Evolutionary Human Sciences
-      date: '2023'
-      doi: https://doi.org/10.1017/ehs.2023.5
+      journal: Proceedings of the Royal Society B
+      date: '2024'
+      doi: https://doi.org/10.1098/rspb.2024.0250
     - title: Negativity bias in the spread of voter fraud conspiracy theory tweets
         during the 2020 US election
       authors:
@@ -240,6 +239,14 @@ cv:
       journal: Humanities and Social Sciences Communications
       date: '2023'
       doi: https://doi.org/10.1057/s41599-023-02106-x
+    - title: Statistical signals of copying are robust to time-and space-averaging
+      authors:
+      - M. Youngblood
+      - H. Miton
+      - O. Morin
+      journal: Evolutionary Human Sciences
+      date: '2023'
+      doi: https://doi.org/10.1017/ehs.2023.5
     - title: All intelligence is collective intelligence
       authors:
       - F.J. Benjamin
@@ -286,19 +293,6 @@ cv:
       journal: Humanities & Social Sciences Communications
       date: '2020'
       doi: https://doi.org/10.1057/s41599-020-00546-3
-    - title: Cultural transmission modes of music sampling traditions remain stable
-        despite delocalization in the digital age
-      authors:
-      - M. Youngblood
-      journal: PLoS ONE
-      date: '2019'
-      doi: https://doi.org/10.1371/journal.pone.0211860
-    - title: Conformity bias in the cultural transmission of music sampling traditions
-      authors:
-      - M. Youngblood
-      journal: Royal Society Open Science
-      date: '2019'
-      doi: https://doi.org/10.1098/rsos.191149
     - title: A Raspberry Pi-based, RFID-equipped birdfeeder for the remote monitoring
         of wild bird populations
       authors:
@@ -306,6 +300,19 @@ cv:
       journal: Ringing & Migration
       date: '2019'
       doi: https://doi.org/10.1080/03078698.2019.1759908
+    - title: Conformity bias in the cultural transmission of music sampling traditions
+      authors:
+      - M. Youngblood
+      journal: Royal Society Open Science
+      date: '2019'
+      doi: https://doi.org/10.1098/rsos.191149
+    - title: Cultural transmission modes of music sampling traditions remain stable
+        despite delocalization in the digital age
+      authors:
+      - M. Youngblood
+      journal: PLoS ONE
+      date: '2019'
+      doi: https://doi.org/10.1371/journal.pone.0211860
     - title: A bibliometric analysis of the interdisciplinary field of cultural evolution
       authors:
       - M. Youngblood
@@ -463,6 +470,9 @@ cv:
       location: null
       summary: null
       highlights:
+      - 'New School, Multispecies Lab Ideas Festival (New York, NY, Mar 2026): Alaka’i
+        1777---using immersive sound to communicate the nonhuman cultural extinction
+        crisis'
       - 'Stony Brook University Libraries (Stony Brook, NY, Dec 2025): From digitization
         to discovery---the frontier of AI in research libraries'
       - 'Oberlin College, Technology in Music and Related Art (Oberlin, OH, Dec 2025):
@@ -625,7 +635,8 @@ cv:
       location: null
       summary: null
       highlights:
-      - Finalist, Richerson Award for Best PhD in Cultural Evolution (2022)
+      - New Investigator Award, Cultural Evolution Society (2026)
+      - Finalist, Richerson Award for Best PhD, Cultural Evolution Society (2022)
     - name: Fellowships
       date: null
       start_date: null
@@ -866,6 +877,17 @@ cv:
     - label: Web Technologies
       details: HTML/CSS, WordPress, GitHub, APIs
     artistic_output:
+    - name: Reed Circuit (Performance, 2026)
+      date: null
+      start_date: null
+      end_date: null
+      location: null
+      summary: In this performance, David Rothenberg plays bass clarinet alongside
+        an AI agent trained on recordings of the Blyth's reed warbler, and the two
+        do what birds in the wild do---listen, adapt, and converge toward a shared
+        repertoire.
+      highlights:
+      - Reforesters Laboratory, 24.2-channel audio (Brooklyn, NY, Feb 28, 2025)
     - name: Involuntary Ghosts (Performance, 2026)
       date: null
       start_date: null
@@ -886,6 +908,10 @@ cv:
         the lost song culture of the Kaua’i ’ō’ō, an extinct Hawaiian bird once native
         to the Alaka’i swamp.
       highlights:
+      - SUNY AI Symposium at Stony Brook University, projection and 2-channel audio
+        (Stony Brook, NY, Apr 14-15, 2026)
+      - Penumbra at Ortega y Gasset Projects, projection and 4.1-channel audio (Brooklyn,
+        NY, Mar 7, 2026)
       - New Museum, NEW INC Media Lab, LED wall video and 8.1-channel audio (New York,
         NY, Mar 13-23, 2026)
       - ’Imiloa Astronomy Center, Planetarium, 360 fulldome video and 5.1-channel
@@ -898,7 +924,7 @@ cv:
         22-23, 2025)
       - 25 Saint James Place, 8-channel audio (New York, NY, Nov 20, 2025)
       - NEW INC and the New Museum's Creative Science Dinner at the Prospect Park
-      - Boathouse, 8-channel audio (Brooklyn, NY, Oct 14, 2025)
+        Boathouse, 8-channel audio (Brooklyn, NY, Oct 14, 2025)
       - TechnoMirage, 8-channel audio (New York, NY, Sept 21, 2025)
       - Reforesters Laboratory, 24.2-channel audio (Brooklyn, NY, June 21-22, 2025)
     - name: Deep Listening for Nonhuman Perspective-Taking (Workshop, 2024)

@@ -77,8 +77,8 @@
   entries-highlights-space-between-bullet-and-text: 0.5em,
   date: datetime(
     year: 2026,
-    month: 3,
-    day: 24,
+    month: 4,
+    day: 17,
   ),
 )
 
@@ -347,7 +347,24 @@
   [
   ],
   main-column-second-row: [
-    (#emph[n] = 20)
+    (#emph[n] = 21)
+    
+  ],
+)
+
+#regular-entry(
+  [
+    #strong[Cultural evolution - of the arts]
+    
+  ],
+  [
+    2026
+    
+  ],
+  main-column-second-row: [
+    O. Sobchuk, M. Youngblood
+    
+    #link("https://doi.org/https://doi.org/10.1017/ehs.2026.10048")[https:\/\/doi.org\/10.1017\/ehs.2026.10048] (Evolutionary Human Sciences)
     
   ],
 )
@@ -405,7 +422,7 @@
 
 #regular-entry(
   [
-    #strong[Temporal stability in songs across the breeding range of #emph[Geothlypis philadelphia] (mourning warbler) may be due to learning fidelity and transmission biases]
+    #strong[Convergent evolution in whale and human vocal cultures]
     
   ],
   [
@@ -413,9 +430,9 @@
     
   ],
   main-column-second-row: [
-    J. Pitocchelli, A. Albina, R.A. Bentley, D. Guerra, M. Youngblood
+    A. Whiten, M. Youngblood
     
-    #link("https://doi.org/https://doi.org/10.1093/ornithology/ukae046")[https:\/\/doi.org\/10.1093\/ornithology\/ukae046] (Ornithology)
+    #link("https://doi.org/https://doi.org/10.1126/science.adv2318")[https:\/\/doi.org\/10.1126\/science.adv2318] (Science)
     
   ],
 )
@@ -439,7 +456,7 @@
 
 #regular-entry(
   [
-    #strong[Convergent evolution in whale and human vocal cultures]
+    #strong[Temporal stability in songs across the breeding range of #emph[Geothlypis philadelphia] (mourning warbler) may be due to learning fidelity and transmission biases]
     
   ],
   [
@@ -447,9 +464,9 @@
     
   ],
   main-column-second-row: [
-    A. Whiten, M. Youngblood
+    J. Pitocchelli, A. Albina, R.A. Bentley, D. Guerra, M. Youngblood
     
-    #link("https://doi.org/https://doi.org/10.1126/science.adv2318")[https:\/\/doi.org\/10.1126\/science.adv2318] (Science)
+    #link("https://doi.org/https://doi.org/10.1093/ornithology/ukae046")[https:\/\/doi.org\/10.1093\/ornithology\/ukae046] (Ornithology)
     
   ],
 )
@@ -473,23 +490,6 @@
 
 #regular-entry(
   [
-    #strong[Language-like efficiency and structure in house finch song]
-    
-  ],
-  [
-    2024
-    
-  ],
-  main-column-second-row: [
-    M. Youngblood
-    
-    #link("https://doi.org/https://doi.org/10.1098/rspb.2024.0250")[https:\/\/doi.org\/10.1098\/rspb.2024.0250] (Proceedings of the Royal Society B)
-    
-  ],
-)
-
-#regular-entry(
-  [
     #strong[First-mover advantage in music]
     
   ],
@@ -507,17 +507,17 @@
 
 #regular-entry(
   [
-    #strong[Statistical signals of copying are robust to time-and space-averaging]
+    #strong[Language-like efficiency and structure in house finch song]
     
   ],
   [
-    2023
+    2024
     
   ],
   main-column-second-row: [
-    M. Youngblood, H. Miton, O. Morin
+    M. Youngblood
     
-    #link("https://doi.org/https://doi.org/10.1017/ehs.2023.5")[https:\/\/doi.org\/10.1017\/ehs.2023.5] (Evolutionary Human Sciences)
+    #link("https://doi.org/https://doi.org/10.1098/rspb.2024.0250")[https:\/\/doi.org\/10.1098\/rspb.2024.0250] (Proceedings of the Royal Society B)
     
   ],
 )
@@ -535,6 +535,23 @@
     M. Youngblood, J.M. Stubbersfield, O. Morin, R. Glassman, A. Acerbi
     
     #link("https://doi.org/https://doi.org/10.1057/s41599-023-02106-x")[https:\/\/doi.org\/10.1057\/s41599-023-02106-x] (Humanities and Social Sciences Communications)
+    
+  ],
+)
+
+#regular-entry(
+  [
+    #strong[Statistical signals of copying are robust to time-and space-averaging]
+    
+  ],
+  [
+    2023
+    
+  ],
+  main-column-second-row: [
+    M. Youngblood, H. Miton, O. Morin
+    
+    #link("https://doi.org/https://doi.org/10.1017/ehs.2023.5")[https:\/\/doi.org\/10.1017\/ehs.2023.5] (Evolutionary Human Sciences)
     
   ],
 )
@@ -626,7 +643,7 @@
 
 #regular-entry(
   [
-    #strong[Cultural transmission modes of music sampling traditions remain stable despite delocalization in the digital age]
+    #strong[A Raspberry Pi-based, RFID-equipped birdfeeder for the remote monitoring of wild bird populations]
     
   ],
   [
@@ -636,7 +653,7 @@
   main-column-second-row: [
     M. Youngblood
     
-    #link("https://doi.org/https://doi.org/10.1371/journal.pone.0211860")[https:\/\/doi.org\/10.1371\/journal.pone.0211860] (PLoS ONE)
+    #link("https://doi.org/https://doi.org/10.1080/03078698.2019.1759908")[https:\/\/doi.org\/10.1080\/03078698.2019.1759908] (Ringing & Migration)
     
   ],
 )
@@ -660,7 +677,7 @@
 
 #regular-entry(
   [
-    #strong[A Raspberry Pi-based, RFID-equipped birdfeeder for the remote monitoring of wild bird populations]
+    #strong[Cultural transmission modes of music sampling traditions remain stable despite delocalization in the digital age]
     
   ],
   [
@@ -670,7 +687,7 @@
   main-column-second-row: [
     M. Youngblood
     
-    #link("https://doi.org/https://doi.org/10.1080/03078698.2019.1759908")[https:\/\/doi.org\/10.1080\/03078698.2019.1759908] (Ringing & Migration)
+    #link("https://doi.org/https://doi.org/10.1371/journal.pone.0211860")[https:\/\/doi.org\/10.1371\/journal.pone.0211860] (PLoS ONE)
     
   ],
 )
@@ -894,6 +911,8 @@
   [
   ],
   main-column-second-row: [
+    - New School, Multispecies Lab Ideas Festival (New York, NY, Mar 2026): Alaka’i 1777---using immersive sound to communicate the nonhuman cultural extinction crisis
+    
     - Stony Brook University Libraries (Stony Brook, NY, Dec 2025): From digitization to discovery---the frontier of AI in research libraries
     
     - Oberlin College, Technology in Music and Related Art (Oberlin, OH, Dec 2025): From generative inference to generative composition
@@ -1039,7 +1058,9 @@
   [
   ],
   main-column-second-row: [
-    - Finalist, Richerson Award for Best PhD in Cultural Evolution (2022)
+    - New Investigator Award, Cultural Evolution Society (2026)
+    
+    - Finalist, Richerson Award for Best PhD, Cultural Evolution Society (2022)
     
   ],
 )
@@ -1431,6 +1452,21 @@
 
   #regular-entry(
   [
+    #strong[Reed Circuit (Performance, 2026)]
+    
+  ],
+  [
+  ],
+  main-column-second-row: [
+    #summary[In this performance, David Rothenberg plays bass clarinet alongside an AI agent trained on recordings of the Blyth's reed warbler, and the two do what birds in the wild do---listen, adapt, and converge toward a shared repertoire.]
+    
+    - Reforesters Laboratory, 24.2-channel audio (Brooklyn, NY, Feb 28, 2025)
+    
+  ],
+)
+
+  #regular-entry(
+  [
     #strong[Involuntary Ghosts (Performance, 2026)]
     
   ],
@@ -1454,9 +1490,13 @@
   main-column-second-row: [
     #summary[Alaka’i 1777 is an immersive audiovisual installation that reconstructs the lost song culture of the Kaua’i ’ō’ō, an extinct Hawaiian bird once native to the Alaka’i swamp.]
     
+    - SUNY AI Symposium at Stony Brook University, projection and 2-channel audio (Stony Brook, NY, Apr 14-15, 2026)
+    
+    - Penumbra at Ortega y Gasset Projects, projection and 4.1-channel audio (Brooklyn, NY, Mar 7, 2026)
+    
     - New Museum, NEW INC Media Lab, LED wall video and 8.1-channel audio (New York, NY, Mar 13-23, 2026)
     
-    - ’Imiloa Astronomy Center, Planetarium, 360 fulldome video and 5.1-channel audio (Hawaii, Mar 17, 2026)
+    - ’Imiloa Astronomy Center, Planetarium, 360 fulldome video and 5.1-channel audio (Hilo, HI, Mar 17, 2026)
     
     - EarFest at Stony Brook University, 4-channel audio (Long Island, NY, Feb 19, 2026)
     
@@ -1466,9 +1506,7 @@
     
     - 25 Saint James Place, 8-channel audio (New York, NY, Nov 20, 2025)
     
-    - NEW INC and the New Museum's Creative Science Dinner at the Prospect Park
-    
-    - Boathouse, 8-channel audio (Brooklyn, NY, Oct 14, 2025)
+    - NEW INC and the New Museum's Creative Science Dinner at the Prospect Park Boathouse, 8-channel audio (Brooklyn, NY, Oct 14, 2025)
     
     - TechnoMirage, 8-channel audio (New York, NY, Sept 21, 2025)
     
