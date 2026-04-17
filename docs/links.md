@@ -6,6 +6,8 @@
 
 ## Events
 
+[Reed Circuit Sunset North: 24 April 2026](https://www.eventbrite.com/e/reed-circuit-sunset-north-tickets-1987360468660){ .md-button .md-button--primary }
+
 [LIFT #04: 4 April 2026](https://ra.co/events/2404116){ .md-button .md-button--primary }
 
 [Reed Circuit: 28 February 2026](https://luma.com/mldfcmth){ .md-button .md-button--primary }
