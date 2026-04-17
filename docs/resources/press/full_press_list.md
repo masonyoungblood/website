@@ -1,4 +1,17 @@
 <div class="grid">
+	<a href="https://www.scientificamerican.com/article/sperm-whales-may-make-their-own-vowel-sounds-similar-to-human-language/" class="card" style="display: flex; align-items: flex-start; gap: 1rem; text-decoration: none; color: inherit;">
+		<img src="https://play-lh.googleusercontent.com/0nt_KXzKfG-3oePNP6dGsI0Apu9OmrsutYirWqKNea-2tO3t5xHDBE7sEsgjSUNGY-td" style="width: 100px; flex-shrink: 0;">
+		<div>
+			<b>Sperm whales may make their own vowel sounds, similar to human language</b>
+			<br>
+			<i>Scientific American | 14 Apr 2026</i>
+			<br>
+			In principle, distinguishing between different vowel-like sounds could give whales more ways to carry meaning in their communication, says Mason Youngblood…
+		</div>
+	</a>
+</div>
+
+<div class="grid">
 	<a href="https://www.youtube.com/watch?v=1gEI7Ihibac" class="card" style="display: flex; align-items: flex-start; gap: 1rem; text-decoration: none; color: inherit;">
 		<img src="https://yt3.googleusercontent.com/wDzBAf9UB_rSJZlt_pHtRjGx0JzbK5bwhbdQxKwaW8D5254qsAuzTgm2w6V7q13yKghazQruAEA=s160-c-k-c0x00ffffff-no-rj" style="width: 100px; flex-shrink: 0;">
 		<div>
