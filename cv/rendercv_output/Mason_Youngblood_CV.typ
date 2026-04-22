@@ -78,7 +78,7 @@
   date: datetime(
     year: 2026,
     month: 4,
-    day: 17,
+    day: 22,
   ),
 )
 
@@ -1489,6 +1489,8 @@
   ],
   main-column-second-row: [
     #summary[Alaka’i 1777 is an immersive audiovisual installation that reconstructs the lost song culture of the Kaua’i ’ō’ō, an extinct Hawaiian bird once native to the Alaka’i swamp.]
+    
+    - Earthfest by New Ear:: SPATIAL at Reforesters Laboratory, 24.2-channel audio (Brooklyn, NY, Apr 21, 2026)
     
     - SUNY AI Symposium at Stony Brook University, projection and 2-channel audio (Stony Brook, NY, Apr 14-15, 2026)
     
