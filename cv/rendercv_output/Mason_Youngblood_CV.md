@@ -790,6 +790,8 @@ Odense, DK
 
 - Grants: Cultural Evolution Society Transformation Fund (John Templeton Foundation)
 
+- Awards: Richerson Award for Best PhD, Cultural Evolution Society (2026)
+
 - Conferences: Computational Humanities Research Conference (2023)
 
 
@@ -881,6 +883,8 @@ Brooklyn, NY
 ## **Reed Circuit (Performance, 2026)**
 
 #summary[In this performance, David Rothenberg plays bass clarinet alongside an AI agent trained on recordings of the Blyth's reed warbler, and the two do what birds in the wild do---listen, adapt, and converge toward a shared repertoire.]
+
+- Secret Location, 2-channel audio (Cold Spring, NY, Apr 24, 2026)
 
 - Reforesters Laboratory, 24.2-channel audio (Brooklyn, NY, Feb 28, 2025)
 

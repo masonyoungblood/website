@@ -10,6 +10,7 @@ For nearly a decade, Merlyn Kotljar has been documenting the songs of the Blyth'
 
 Appearances:
 
+- Secret Location, 2-channel audio (Cold Spring, NY, Apr 24, 2026)
 - [Reforesters Laboratory](https://reforesters.io/), 24.2-channel audio (Brooklyn, NY, June 21-22, 2025)
 
 ### *Involuntary Ghosts* (Performance, 2026)
