@@ -580,6 +580,10 @@ M. Youngblood
 
 ## **Conference Talks**
 
+- Human Behavior and Evolution Society Conference (Rabat, MA, May 2026): Dynamics of collective creativity in AI art competitions
+
+- Cultural Evolution Society Conference (Rabat, MA, May 2026): Dynamics of collective creativity in AI art competitions
+
 - Yale Graduate Music Symposium (New Haven, CT, Feb 2026): On the edge of music and language: whale songs as epistemic compass (w\/Marie Comuzzo)
 
 - Cultural Evolution Society Conference (Durham, UK, Sept 2024): Language-like efficiency and structure in house finch song

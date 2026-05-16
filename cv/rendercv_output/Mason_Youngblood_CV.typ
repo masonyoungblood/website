@@ -77,8 +77,8 @@
   entries-highlights-space-between-bullet-and-text: 0.5em,
   date: datetime(
     year: 2026,
-    month: 4,
-    day: 28,
+    month: 5,
+    day: 16,
   ),
 )
 
@@ -1006,6 +1006,10 @@
   [
   ],
   main-column-second-row: [
+    - Human Behavior and Evolution Society Conference (Rabat, MA, May 2026): Dynamics of collective creativity in AI art competitions
+    
+    - Cultural Evolution Society Conference (Rabat, MA, May 2026): Dynamics of collective creativity in AI art competitions
+    
     - Yale Graduate Music Symposium (New Haven, CT, Feb 2026): On the edge of music and language: whale songs as epistemic compass (w\/Marie Comuzzo)
     
     - Cultural Evolution Society Conference (Durham, UK, Sept 2024): Language-like efficiency and structure in house finch song
