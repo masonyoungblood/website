@@ -78,7 +78,7 @@
   date: datetime(
     year: 2026,
     month: 5,
-    day: 16,
+    day: 19,
   ),
 )
 
@@ -747,7 +747,24 @@
   [
   ],
   main-column-second-row: [
-    (#emph[n] = 4)
+    (#emph[n] = 5)
+    
+  ],
+)
+
+#regular-entry(
+  [
+    #strong[Dynamics of collective creativity in AI art competitions]
+    
+  ],
+  [
+    2026
+    
+  ],
+  main-column-second-row: [
+    M. Youngblood, J. Nusz, J. Simon
+    
+    #link("https://doi.org/https://doi.org/10.48550/arXiv.2605.17141")[https:\/\/doi.org\/10.48550\/arXiv.2605.17141] (arXiv)
     
   ],
 )

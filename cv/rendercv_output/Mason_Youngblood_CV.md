@@ -398,7 +398,17 @@ M. Youngblood, Y. Ozaki, P.E. Savage
 
 ## **PREPRINTS**
 
-(#emph[n] = 4)
+(#emph[n] = 5)
+
+
+
+## **Dynamics of collective creativity in AI art competitions**
+
+2026
+
+M. Youngblood, J. Nusz, J. Simon
+
+[https://doi.org/10.48550/arXiv.2605.17141](https://doi.org/https://doi.org/10.48550/arXiv.2605.17141) (arXiv)
 
 
 

@@ -50,6 +50,8 @@
 
 ## Preprints
 
+* **Youngblood, M.**, Nusz, J., & Simon, J. (2026). Dynamics of collective creativity in AI art competitions. *arXiv*. [https://doi.org/10.48550/arXiv.2605.17141](https://doi.org/10.48550/arXiv.2605.17141)
+
 * **Youngblood, M.** (2025). chatter: a Python library for applying information theory and AI/ML models to animal communication. *arXiv*. [https://doi.org/10.48550/arXiv.2512.17935](https://doi.org/10.48550/arXiv.2512.17935)
 
 * **Youngblood, M.**, Marie, A., & Morin, O. (2025). Status quo conservatism: A theory and a model. *SocArXiv*. [https://osf.io/ngb58](https://osf.io/ngb58)
