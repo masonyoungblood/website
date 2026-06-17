@@ -77,8 +77,8 @@
   entries-highlights-space-between-bullet-and-text: 0.5em,
   date: datetime(
     year: 2026,
-    month: 5,
-    day: 19,
+    month: 6,
+    day: 17,
   ),
 )
 
@@ -928,6 +928,8 @@
   [
   ],
   main-column-second-row: [
+    - Swissnex, Planetary Embassy (Boston, MA, May 2026): Learning to listen---interspecies communication
+    
     - New School, Multispecies Lab Ideas Festival (New York, NY, Mar 2026): Alaka’i 1777---using immersive sound to communicate the nonhuman cultural extinction crisis
     
     - Stony Brook University Libraries (Stony Brook, NY, Dec 2025): From digitization to discovery---the frontier of AI in research libraries
@@ -1094,7 +1096,7 @@
   [
   ],
   main-column-second-row: [
-    - Postdoctoral Fellowship, Institute for Advanced Computational Science (2023-present)
+    - Postdoctoral Fellowship, Institute for Advanced Computational Science (2023-present, #strong[\$160,042])
     
     - Summer Research Training, Methods in the Neuroscience of Drug Abuse, University of Texas at El Paso (2013): The role of dopamine D2 receptor in brain development and ethanol-induced behavioral disinhibition
     
@@ -1111,6 +1113,10 @@
   [
   ],
   main-column-second-row: [
+    - National Science Foundation, Innovation Corps Award (2026, #strong[\$50,000]): Lyrai---digital acoustic twins of architectural spaces
+    
+    - Special Initiative Seed Grant, Stony Brook University (2026, #strong[\$5,000]): Living mounds---prototyping ecological sensing and multi-species interfaces
+    
     - Augustine Foundation (2026, #strong[\$9,072]): Alaka’i 1777---a sonic and visual resurrection
     
     - Institute for Advanced Computational Science, Seed Grant (2024, #strong[\$249,421]): Dynamics of creativity in complex social networks
@@ -1211,6 +1217,23 @@
 )
 
 == Bootcamps & Summer Schools
+
+#regular-entry(
+  [
+    #strong[National Science Foundation, Innovation Corps]
+    
+    #summary[Hosted by the National Science Foundation]
+    
+  ],
+  [
+    New York, NY
+    
+    2026 – 2026
+    
+  ],
+  main-column-second-row: [
+  ],
+)
 
 #regular-entry(
   [
@@ -1551,6 +1574,8 @@
   ],
   main-column-second-row: [
     #summary[Deep Listening for Nonhuman Perspective-Taking is a participatory, immersive sound workshop where participants listen deeply to diverse sounds of nonhuman life—infrasonic booms of whales, drumming displays of spiders, and complex songs of endangered and extinct birds.]
+    
+    - Swissnex, Planetary Embassy (Boston, MA, May 2026)
     
     - 25 Saint James Place (New York, NY, Nov 20, 2025)
     

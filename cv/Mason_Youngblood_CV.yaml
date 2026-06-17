@@ -478,6 +478,8 @@ cv:
       location: null
       summary: null
       highlights:
+      - 'Swissnex, Planetary Embassy (Boston, MA, May 2026): Learning to listen---interspecies
+        communication'
       - 'New School, Multispecies Lab Ideas Festival (New York, NY, Mar 2026): Alaka’i
         1777---using immersive sound to communicate the nonhuman cultural extinction
         crisis'
@@ -656,7 +658,8 @@ cv:
       location: null
       summary: null
       highlights:
-      - Postdoctoral Fellowship, Institute for Advanced Computational Science (2023-present, **$160,042**)
+      - Postdoctoral Fellowship, Institute for Advanced Computational Science (2023-present,
+        **$160,042**)
       - 'Summer Research Training, Methods in the Neuroscience of Drug Abuse, University
         of Texas at El Paso (2013): The role of dopamine D2 receptor in brain development
         and ethanol-induced behavioral disinhibition'
@@ -669,6 +672,10 @@ cv:
       location: null
       summary: null
       highlights:
+      - 'National Science Foundation, Innovation Corps Award (2026, **$50,000**):
+        Lyrai---digital acoustic twins of architectural spaces'
+      - 'Special Initiative Seed Grant, Stony Brook University (2026, **$5,000**):
+        Living mounds---prototyping ecological sensing and multi-species interfaces'
       - 'Augustine Foundation (2026, **$9,072**): Alaka’i 1777---a sonic and visual
         resurrection'
       - 'Institute for Advanced Computational Science, Seed Grant (2024, **$249,421**):
@@ -742,6 +749,13 @@ cv:
         CUNY --- Relationship between personality and congitive traits in domestic
         rabbits (*Oryctolagus cuniculus*)'
     bootcamps_&_summer_schools:
+    - name: National Science Foundation, Innovation Corps
+      date: null
+      start_date: 2026-07
+      end_date: 2026-08
+      location: New York, NY
+      summary: Hosted by the National Science Foundation
+      highlights: null
     - name: New York University Startup Accelerator Program
       date: null
       start_date: 2025-03
@@ -953,6 +967,7 @@ cv:
         of nonhuman life—infrasonic booms of whales, drumming displays of spiders,
         and complex songs of endangered and extinct birds.
       highlights:
+      - Swissnex, Planetary Embassy (Boston, MA, May 2026)
       - 25 Saint James Place (New York, NY, Nov 20, 2025)
       - Rutgers Art Network at Rutgers University (New Brunswick, NJ, Oct 29, 2025)
       - The Bakery (Brooklyn, NY, Mar 29, 2025)

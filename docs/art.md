@@ -56,6 +56,7 @@ alakai
 
 Workshops:
 
+- [Swissnex, Planetary Embassy](https://swissnex.org/event/learning-to-listen-interspecies-communication/) (Boston, MA, May 2026)
 - 25 Saint James Place, 8-channel audio (New York, NY, November 20, 2025)
 - Rutgers Art Network at [Rutgers University](https://www.rutgers.edu/) (New Brunswick, NJ, October 29, 2025)
 - [The Bakery](https://www.instagram.com/bake_some_bread/) (Brooklyn, NY, March 29, 2025)
