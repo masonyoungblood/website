@@ -77,8 +77,8 @@
   entries-highlights-space-between-bullet-and-text: 0.5em,
   date: datetime(
     year: 2026,
-    month: 6,
-    day: 17,
+    month: 7,
+    day: 23,
   ),
 )
 
@@ -318,12 +318,16 @@
 
   #regular-entry(
   [
-    #strong[Guest Teaching (Coding Workshops)]
+    #strong[Guest Teaching (Interactive Workshops)]
     
   ],
   [
   ],
   main-column-second-row: [
+    - Association of Early-Career Social Learning Researchers, Skillshare Workshop (Virtual, June 2026): Simulation-based inference, a primer
+    
+    - New Museum, XR Impact Creators Lab hosted by Agog and NEW INC (New York, NY, June 2026): Immersive sound for XR storytelling
+    
     - Genspace, Community Biology Lab (Brooklyn, NY, Jan 2023): Models of cultural transmission in human populations
     
     - University of Amsterdam, Social Learning Across the Lifespan and Generations (5th ESLR Workshop) (Amsterdam, NL, July 2022): Biased transmission and transformation in the cultural evolution of birdsong
@@ -928,6 +932,8 @@
   [
   ],
   main-column-second-row: [
+    - Animal Behavior Society, Plenary Session on Cultural Evolution (Cincinnati, OH, July 2026): Using computation to accelerate research on the cultural evolution of vocal communication
+    
     - Swissnex, Planetary Embassy (Boston, MA, May 2026): Learning to listen---interspecies communication
     
     - New School, Multispecies Lab Ideas Festival (New York, NY, Mar 2026): Alaka’i 1777---using immersive sound to communicate the nonhuman cultural extinction crisis

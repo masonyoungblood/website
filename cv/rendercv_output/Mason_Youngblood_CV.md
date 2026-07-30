@@ -148,7 +148,11 @@ Fall 2015 --  Spring 2016
 
 
 
-## **Guest Teaching (Coding Workshops)**
+## **Guest Teaching (Interactive Workshops)**
+
+- Association of Early-Career Social Learning Researchers, Skillshare Workshop (Virtual, June 2026): Simulation-based inference, a primer
+
+- New Museum, XR Impact Creators Lab hosted by Agog and NEW INC (New York, NY, June 2026): Immersive sound for XR storytelling
 
 - Genspace, Community Biology Lab (Brooklyn, NY, Jan 2023): Models of cultural transmission in human populations
 
@@ -501,6 +505,8 @@ M. Youngblood
 # Presentations
 
 ## **Invited Talks**
+
+- Animal Behavior Society, Plenary Session on Cultural Evolution (Cincinnati, OH, July 2026): Using computation to accelerate research on the cultural evolution of vocal communication
 
 - Swissnex, Planetary Embassy (Boston, MA, May 2026): Learning to listen---interspecies communication
 
