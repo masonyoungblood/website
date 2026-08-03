@@ -77,8 +77,8 @@
   entries-highlights-space-between-bullet-and-text: 0.5em,
   date: datetime(
     year: 2026,
-    month: 7,
-    day: 23,
+    month: 8,
+    day: 3,
   ),
 )
 
@@ -351,7 +351,24 @@
   [
   ],
   main-column-second-row: [
-    (#emph[n] = 21)
+    (#emph[n] = 22)
+    
+  ],
+)
+
+#regular-entry(
+  [
+    #strong[NEW INC Y12 Creative Science: Alakaʻi 1777—using immersive sound to communicate the nonhuman cultural extinction crisis]
+    
+  ],
+  [
+    2026
+    
+  ],
+  main-column-second-row: [
+    M. Youngblood
+    
+    #link("https://doi.org/https://doi.org/10.1017/S2977905726100109")[https:\/\/doi.org\/10.1017\/S2977905726100109] (Biotechnology Design)
     
   ],
 )
@@ -1597,6 +1614,23 @@
 )
 
 == Artist Residencies & Incubators
+
+#regular-entry(
+  [
+    #strong[NEW INC]
+    
+    #summary[Member of Creative Science cohort, hosted by the New Museum]
+    
+  ],
+  [
+    New York, NY
+    
+    2026 – 2027
+    
+  ],
+  main-column-second-row: [
+  ],
+)
 
 #regular-entry(
   [

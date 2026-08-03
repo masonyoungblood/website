@@ -154,7 +154,14 @@ cv:
     publications:
     - title: JOURNAL ARTICLES
       authors:
-      - (*n* = 21)
+      - (*n* = 22)
+    - title: 'NEW INC Y12 Creative Science: Alakaʻi 1777—using immersive sound to
+        communicate the nonhuman cultural extinction crisis'
+      authors:
+      - M. Youngblood
+      journal: Biotechnology Design
+      date: '2026'
+      doi: https://doi.org/10.1017/S2977905726100109
     - title: Cultural evolution - of the arts
       authors:
       - O. Sobchuk
@@ -981,6 +988,13 @@ cv:
       - Hex House (Brooklyn, NY, Dec 7, 2024)
       - University of St. Andrews (St. Andrews, Scotland, July 10, 2024)
     artist_residencies_&_incubators:
+    - name: NEW INC
+      date: null
+      start_date: 2026-09
+      end_date: 2027-08
+      location: New York, NY
+      summary: Member of Creative Science cohort, hosted by the New Museum
+      highlights: null
     - name: NEW INC
       date: null
       start_date: 2025-09

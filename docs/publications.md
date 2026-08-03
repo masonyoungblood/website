@@ -2,6 +2,8 @@
 
 ## Journal Articles
 
+* **Youngblood, M.** (2026). NEW INC Y12 Creative Science: Alakaʻi 1777—using immersive sound to communicate the nonhuman cultural extinction crisis. *Biotechnology Design*. [https://doi.org/10.1017/S2977905726100109](https://doi.org/10.1017/S2977905726100109)
+
 * Sobchuk, O., & **Youngblood, M.** (2026). Cultural evolution - of the arts. *Evolutionary Human Sciences*. [https://doi.org/10.1017/ehs.2026.10048](https://doi.org/10.1017/ehs.2026.10048)
 
 * **Youngblood, M.** (2026). Zebra finches transform random songs to exhibit linguistic laws. *Animal Cognition*, *29*(35). [https://doi.org/10.1007/s10071-026-02058-0](https://doi.org/10.1007/s10071-026-02058-0)

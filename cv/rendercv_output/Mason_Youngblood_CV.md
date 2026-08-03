@@ -170,7 +170,17 @@ Fall 2015 --  Spring 2016
 
 ## **JOURNAL ARTICLES**
 
-(#emph[n] = 21)
+(#emph[n] = 22)
+
+
+
+## **NEW INC Y12 Creative Science: Alakaʻi 1777—using immersive sound to communicate the nonhuman cultural extinction crisis**
+
+2026
+
+M. Youngblood
+
+[https://doi.org/10.1017/S2977905726100109](https://doi.org/https://doi.org/10.1017/S2977905726100109) (Biotechnology Design)
 
 
 
@@ -983,6 +993,16 @@ Brooklyn, NY
 
 
 # Artist Residencies & Incubators
+
+## **NEW INC**
+
+New York, NY
+
+2026 – 2027
+
+#summary[Member of Creative Science cohort, hosted by the New Museum]
+
+
 
 ## **NEW INC**
 
