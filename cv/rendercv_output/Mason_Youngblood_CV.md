@@ -170,7 +170,7 @@ Fall 2015 --  Spring 2016
 
 ## **JOURNAL ARTICLES**
 
-(#emph[n] = 22)
+(#emph[n] = 23)
 
 
 
@@ -181,6 +181,16 @@ Fall 2015 --  Spring 2016
 M. Youngblood
 
 [https://doi.org/10.1017/S2977905726100109](https://doi.org/https://doi.org/10.1017/S2977905726100109) (Biotechnology Design)
+
+
+
+## **Dynamics of creative exploration: A study of signal space constraints in music and communication**
+
+2026
+
+K. Mudd, M. Youngblood, M. Schedel
+
+[escholarship.org/uc/item/20h9h892](https://escholarship.org/uc/item/20h9h892) (Proceedings of the Annual Meeting of the Cognitive Science Society)
 
 
 
@@ -396,7 +406,17 @@ M. Youngblood, D. Lahti
 
 ## **BOOK CHAPTERS**
 
-(#emph[n] = 1)
+(#emph[n] = 2)
+
+
+
+## **The history of music: approaches from cultural evolution and musicology**
+
+2023
+
+M. Youngblood, F.C. Moss
+
+[https://doi.org/10.1093/9780197775097.003.0010](https://doi.org/https://doi.org/10.1093/9780197775097.003.0010) (The Biology of Music: Interdisciplinary Insights)
 
 
 
@@ -478,7 +498,7 @@ M.G. GomezdelaTorre Clavel, M. Youngblood, D. Lahti
 
 A. Friedman, M. Youngblood
 
- (The Real News Network)
+[therealnews.com/nobody-defunded-the-police-a-study](https://therealnews.com/nobody-defunded-the-police-a-study) (The Real News Network)
 
 
 
@@ -488,7 +508,7 @@ A. Friedman, M. Youngblood
 
 M. Youngblood
 
- (Plot, Vol. 10: X)
+[www.plotjournal.com/issues](https://www.plotjournal.com/issues) (Plot, Vol. 10: X)
 
 
 
@@ -498,7 +518,7 @@ M. Youngblood
 
 A. Friedman, M. Youngblood
 
- (Sludge)
+[readsludge.com/2020/06/26/poorer-cities-spend-more-of-budget-on-police-even-where-crime-is-lower](https://readsludge.com/2020/06/26/poorer-cities-spend-more-of-budget-on-police-even-where-crime-is-lower/) (Sludge)
 
 
 
@@ -508,7 +528,7 @@ A. Friedman, M. Youngblood
 
 M. Youngblood
 
- (Red Bull Music Academy Daily)
+[daily.redbullmusicacademy.com/2019/06/collaborative-sampling-feature](https://daily.redbullmusicacademy.com/2019/06/collaborative-sampling-feature) (Red Bull Music Academy Daily)
 
 
 

@@ -4,6 +4,8 @@
 
 * **Youngblood, M.** (2026). NEW INC Y12 Creative Science: Alakaʻi 1777—using immersive sound to communicate the nonhuman cultural extinction crisis. *Biotechnology Design*. [https://doi.org/10.1017/S2977905726100109](https://doi.org/10.1017/S2977905726100109)
 
+* Mudd, K., **Youngblood, M.**, & Schedel, M. (2026). Dynamics of creative exploration: A study of signal space constraints in music and communication. *Proceedings of the Annual Meeting of the Cognitive Science Society*. [https://escholarship.org/uc/item/20h9h892](https://escholarship.org/uc/item/20h9h892)
+
 * Sobchuk, O., & **Youngblood, M.** (2026). Cultural evolution - of the arts. *Evolutionary Human Sciences*. [https://doi.org/10.1017/ehs.2026.10048](https://doi.org/10.1017/ehs.2026.10048)
 
 * **Youngblood, M.** (2026). Zebra finches transform random songs to exhibit linguistic laws. *Animal Cognition*, *29*(35). [https://doi.org/10.1007/s10071-026-02058-0](https://doi.org/10.1007/s10071-026-02058-0)
@@ -47,6 +49,8 @@
 * **Youngblood, M.**, & Lahti, D. (2018). A bibliometric analysis of the interdisciplinary field of cultural evolution. *Palgrave Communications*, *4*(1), 1--9. [https://doi.org/10.1057/s41599-018-0175-8](https://doi.org/10.1057/s41599-018-0175-8)
 
 ## Book Chapters
+
+* **Youngblood, M.**, & Moss, F.C. (2023). The history of music: approaches from cultural evolution and musicology. *The Biology of Music: Interdisciplinary Insights*. Oxford University Press. [https://doi.org/10.1093/9780197775097.003.0010](https://doi.org/10.1093/9780197775097.003.0010)
 
 * **Youngblood, M.**, Ozaki, Y., & Savage, P.E. (2023). Cultural evolution and music. *The Oxford Handbook of Cultural Evolution*. Oxford University Press. [https://doi.org/10.1093/oxfordhb/9780198869252.013.42](https://doi.org/10.1093/oxfordhb/9780198869252.013.42)
 

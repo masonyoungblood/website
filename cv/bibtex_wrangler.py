@@ -122,6 +122,8 @@ def bibtex_to_rendercv_yaml(bibtex_source, my_name="Mason Youngblood"):
             doi = entry.get('doi', '')
             if doi and not doi.startswith('http'):
                 doi = f"https://doi.org/{doi}"
+            # RenderCV validates doi against \b10\..*; use url for non-DOI links
+            url = '' if doi else entry.get('url', '')
 
             raw_authors = entry.get('author', '').split(' and ')
             formatted_authors = [format_author_name(auth, my_name) for auth in raw_authors]
@@ -138,6 +140,8 @@ def bibtex_to_rendercv_yaml(bibtex_source, my_name="Mason Youngblood"):
                 pub_entry['date'] = date
             if doi:
                 pub_entry['doi'] = doi
+            elif url:
+                pub_entry['url'] = url
             
             publications.append(pub_entry)
 

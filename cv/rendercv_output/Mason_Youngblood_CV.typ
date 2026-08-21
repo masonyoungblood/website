@@ -78,7 +78,7 @@
   date: datetime(
     year: 2026,
     month: 8,
-    day: 3,
+    day: 20,
   ),
 )
 
@@ -351,7 +351,7 @@
   [
   ],
   main-column-second-row: [
-    (#emph[n] = 22)
+    (#emph[n] = 23)
     
   ],
 )
@@ -369,6 +369,23 @@
     M. Youngblood
     
     #link("https://doi.org/https://doi.org/10.1017/S2977905726100109")[https:\/\/doi.org\/10.1017\/S2977905726100109] (Biotechnology Design)
+    
+  ],
+)
+
+#regular-entry(
+  [
+    #strong[Dynamics of creative exploration: A study of signal space constraints in music and communication]
+    
+  ],
+  [
+    2026
+    
+  ],
+  main-column-second-row: [
+    K. Mudd, M. Youngblood, M. Schedel
+    
+    #link("https://escholarship.org/uc/item/20h9h892")[escholarship.org\/uc\/item\/20h9h892] (Proceedings of the Annual Meeting of the Cognitive Science Society)
     
   ],
 )
@@ -738,7 +755,24 @@
   [
   ],
   main-column-second-row: [
-    (#emph[n] = 1)
+    (#emph[n] = 2)
+    
+  ],
+)
+
+#regular-entry(
+  [
+    #strong[The history of music: approaches from cultural evolution and musicology]
+    
+  ],
+  [
+    2023
+    
+  ],
+  main-column-second-row: [
+    M. Youngblood, F.C. Moss
+    
+    #link("https://doi.org/https://doi.org/10.1093/9780197775097.003.0010")[https:\/\/doi.org\/10.1093\/9780197775097.003.0010] (The Biology of Music: Interdisciplinary Insights)
     
   ],
 )
@@ -883,7 +917,7 @@
   main-column-second-row: [
     A. Friedman, M. Youngblood
     
-     (The Real News Network)
+    #link("https://therealnews.com/nobody-defunded-the-police-a-study")[therealnews.com\/nobody-defunded-the-police-a-study] (The Real News Network)
     
   ],
 )
@@ -900,7 +934,7 @@
   main-column-second-row: [
     M. Youngblood
     
-     (Plot, Vol. 10: X)
+    #link("https://www.plotjournal.com/issues")[www.plotjournal.com\/issues] (Plot, Vol. 10: X)
     
   ],
 )
@@ -917,7 +951,7 @@
   main-column-second-row: [
     A. Friedman, M. Youngblood
     
-     (Sludge)
+    #link("https://readsludge.com/2020/06/26/poorer-cities-spend-more-of-budget-on-police-even-where-crime-is-lower/")[readsludge.com\/2020\/06\/26\/poorer-cities-spend-more-of-budget-on-police-even-where-crime-is-lower] (Sludge)
     
   ],
 )
@@ -934,7 +968,7 @@
   main-column-second-row: [
     M. Youngblood
     
-     (Red Bull Music Academy Daily)
+    #link("https://daily.redbullmusicacademy.com/2019/06/collaborative-sampling-feature")[daily.redbullmusicacademy.com\/2019\/06\/collaborative-sampling-feature] (Red Bull Music Academy Daily)
     
   ],
 )

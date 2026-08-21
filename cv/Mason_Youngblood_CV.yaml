@@ -154,7 +154,7 @@ cv:
     publications:
     - title: JOURNAL ARTICLES
       authors:
-      - (*n* = 22)
+      - (*n* = 23)
     - title: 'NEW INC Y12 Creative Science: Alakaʻi 1777—using immersive sound to
         communicate the nonhuman cultural extinction crisis'
       authors:
@@ -162,6 +162,15 @@ cv:
       journal: Biotechnology Design
       date: '2026'
       doi: https://doi.org/10.1017/S2977905726100109
+    - title: 'Dynamics of creative exploration: A study of signal space constraints
+        in music and communication'
+      authors:
+      - K. Mudd
+      - M. Youngblood
+      - M. Schedel
+      journal: Proceedings of the Annual Meeting of the Cognitive Science Society
+      date: '2026'
+      url: https://escholarship.org/uc/item/20h9h892
     - title: Cultural evolution - of the arts
       authors:
       - O. Sobchuk
@@ -333,7 +342,14 @@ cv:
       doi: https://doi.org/10.1057/s41599-018-0175-8
     - title: BOOK CHAPTERS
       authors:
-      - (*n* = 1)
+      - (*n* = 2)
+    - title: 'The history of music: approaches from cultural evolution and musicology'
+      authors:
+      - M. Youngblood
+      - F.C. Moss
+      journal: 'The Biology of Music: Interdisciplinary Insights'
+      date: '2023'
+      doi: https://doi.org/10.1093/9780197775097.003.0010
     - title: Cultural evolution and music
       authors:
       - M. Youngblood
@@ -465,22 +481,26 @@ cv:
       - M. Youngblood
       journal: The Real News Network
       date: '2022'
+      url: https://therealnews.com/nobody-defunded-the-police-a-study
     - title: Birdsong diversity in the urban environment
       authors:
       - M. Youngblood
       journal: 'Plot, Vol. 10: X'
       date: '2021'
+      url: https://www.plotjournal.com/issues
     - title: Poorer cities spend more of budget on police, even where crime is lower
       authors:
       - A. Friedman
       - M. Youngblood
       journal: Sludge
       date: '2020'
+      url: https://readsludge.com/2020/06/26/poorer-cities-spend-more-of-budget-on-police-even-where-crime-is-lower/
     - title: A study of collaborative sampling across international network
       authors:
       - M. Youngblood
       journal: Red Bull Music Academy Daily
       date: '2019'
+      url: https://daily.redbullmusicacademy.com/2019/06/collaborative-sampling-feature
     presentations:
     - name: Invited Talks
       date: null
