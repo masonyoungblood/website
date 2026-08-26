@@ -446,6 +446,16 @@ M. Youngblood, J. Nusz, J. Simon
 
 
 
+## **Synchronised group singing enhances social bonding more than group conversation or recitation does: A Registered Report across 30 languages**
+
+2026
+
+Z. Jia, Y. Ozaki, D. Pavlovich, J. Huang, E. Benetos, U. Khasanah, S. Calhoun, G. Chiba, Y. Kitayama, S. Fujii, D.P. Sadaphal, W.T. Fitch, S. Vaida, S. Echim, T. Popescu, Z. Shi, M. Grassi, L. Guiotto Nai Fovino, J. Hajič jr., P. Nuska, B. Štěpánková, P. Tiratanti, J.A. Bulbulia, Y. He, Y. Li, F. Liu, G. Novembre, C. Coissac, F. Arnese, Y. Jadoul, A. Ravignani, F.E. Nweke, A.O. Oladimeji, O. Olokodana-James, N. Mousavi, P. Larrouy-Maestri, U. Færøvik, A. Lenvik, M. Ruiz Loria, J. Quintero-Martínez, J.F. Ariza, J.D. Leongómez, A. Cabildo, C. Vanden Bosch der Nederlanden, P. Proutskova, D. Macholl, J.H. Ong, C. Wider, B. Tunçgenç, F. Talamini, L. Leuschner, W.F. Thompson, G. Perry, L. Wolff, R.M. Ross, A. Ampiah-Bonney, S. Gabriel, P.Q. Pfordresher, H. Parkinson, F. Honbolygó, C. Kertész, Y.G. Pavlov, A. Kosachenko, D. Tarasov, W. Krzyżanowski, P. Podlipniak, S. Dabaghi Varnosfaderani, A.-K. Beck, I. Kim, T. Jung, J.M. McBride, T. Lomsadze, S. Ripley, K. Bilous, L.J. Trainor, J.S. Bamford, M. Thompson, M. Hartmann, B. Tarr, K.Y. Han, A.K. McCullough, P. Loui, R. Dias, A. Garcia-Arasco, A. Bellot, K. Pisanski, L. Raviv, R. van Casteren, K.B. Kortegaard, N.C. Hansen, D. Kurdova, Z. Mikova, A. Arhine, M.O. Okantah Jr., K.K. Labayili, Y. Ma, D. Sears, L.A. Rivera, S. Kolios, R. Zariquiey, M. Poblete, S. Rojas, F. Haiduk, N. Nguqu, P. Opondo, M.L. Parselelo, B.S. Barbosa, M.A.C. Varella, M. Belyk, M. Youngblood, S.C. Purdy, P.E. Savage
+
+[https://doi.org/10.31234/osf.io/pv3m9_v4](https://doi.org/https://doi.org/10.31234/osf.io/pv3m9_v4) (PsyArXiv)
+
+
+
 ## **chatter: a Python library for applying information theory and AI\/ML models to animal communication**
 
 2025
@@ -463,16 +473,6 @@ M. Youngblood
 M. Youngblood, A. Marie, O. Morin
 
 [https://doi.org/10.31234/osf.io/ngb58](https://doi.org/https://doi.org/10.31234/osf.io/ngb58) (SocArXiv)
-
-
-
-## **Does singing enhance cooperation more than speaking does? A global experimental Stage 1 Registered Report**
-
-2024
-
-P.E. Savage, A. Ampiah-Bonney, A. Arabadjiev, A. Arhine, J.F. Ariza, J.S. Bamford, B.S. Barbosa, A.-K. Beck, M. Belyk, E. Benetos, J. Bulbulia, A. Cabildo, S. Calhoun, G. Chiba, S.I. Duran, U. Færøvik, T. Fitch, S. Fujii, S. Gabriel, F. Haiduk, N.C. Hansen, S. Hegde, F. Honbolygó, J. Huang, N. Jacoby, Y. Jadoul, Z. Jia, T. Jung, C. Kertész, U. Khasanah, I. Kim, Y. Kitayama, W. Krzyżanowski, U. Kuikuro, D. Kurdova, P. Larrouy-Maestri, J.D. Leongómez, F. Liu, T. Lomsadze, P. Loui, Y. Ma, J. Mcbride, D. Moya, R. Natsitsabui, G. Novembre, F.E. Nweke, P. Opondo, Y. Ozaki, H. Parkinson, M.L. Parselelo, D. Pavlovich, P. Pfordresher, K. Pisanski, P. Podlipniak, T. Popescu, P. Proutskova, S. Purdy, A. Ravignani, L. Raviv, D.P. Sadaphal, S.R. Shakya, D. Shilton, J. Silva-Zurita, I. Soto-Silva, B. Tarr, A. Tierney, P. Tiratanti, L. Trainor, C. Der Nederlanden, M.A.C. Varella, S.D. Varnosfaderani, M. Youngblood, R. Zariquiey
-
-[https://doi.org/10.31234/osf.io/pv3m9](https://doi.org/https://doi.org/10.31234/osf.io/pv3m9) (PsyArXiv)
 
 
 
