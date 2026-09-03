@@ -360,7 +360,19 @@ cv:
       doi: https://doi.org/10.1093/oxfordhb/9780198869252.013.42
     - title: PREPRINTS
       authors:
-      - (*n* = 5)
+      - (*n* = 6)
+    - title: Collective creativity in hybrid societies
+      authors:
+      - M. Youngblood
+      - K. Mudd
+      - M. Anglada-Tort
+      - C. Jones
+      - E. Miu
+      - D. Omigie
+      - M. Schedel
+      journal: arXiv
+      date: '2026'
+      doi: https://doi.org/10.48550/arXiv.2609.02620
     - title: Dynamics of collective creativity in AI art competitions
       authors:
       - M. Youngblood
@@ -548,6 +560,8 @@ cv:
       location: null
       summary: null
       highlights:
+      - 'Stony Brook University, Institute for Advanced Computational Science (Stony
+        Brook, NY, August 2026): Collective creativity in digital culture'
       - 'Animal Behavior Society, Plenary Session on Cultural Evolution (Cincinnati,
         OH, July 2026): Using computation to accelerate research on the cultural evolution
         of vocal communication'

@@ -77,8 +77,8 @@
   entries-highlights-space-between-bullet-and-text: 0.5em,
   date: datetime(
     year: 2026,
-    month: 8,
-    day: 26,
+    month: 9,
+    day: 3,
   ),
 )
 
@@ -802,7 +802,24 @@
   [
   ],
   main-column-second-row: [
-    (#emph[n] = 5)
+    (#emph[n] = 6)
+    
+  ],
+)
+
+#regular-entry(
+  [
+    #strong[Collective creativity in hybrid societies]
+    
+  ],
+  [
+    2026
+    
+  ],
+  main-column-second-row: [
+    M. Youngblood, K. Mudd, M. Anglada-Tort, C. Jones, E. Miu, D. Omigie, M. Schedel
+    
+    #link("https://doi.org/https://doi.org/10.48550/arXiv.2609.02620")[https:\/\/doi.org\/10.48550\/arXiv.2609.02620] (arXiv)
     
   ],
 )
@@ -983,6 +1000,8 @@
   [
   ],
   main-column-second-row: [
+    - Stony Brook University, Institute for Advanced Computational Science (Stony Brook, NY, August 2026): Collective creativity in digital culture
+    
     - Animal Behavior Society, Plenary Session on Cultural Evolution (Cincinnati, OH, July 2026): Using computation to accelerate research on the cultural evolution of vocal communication
     
     - Swissnex, Planetary Embassy (Boston, MA, May 2026): Learning to listen---interspecies communication

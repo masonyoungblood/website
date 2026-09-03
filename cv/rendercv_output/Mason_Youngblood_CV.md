@@ -432,7 +432,17 @@ M. Youngblood, Y. Ozaki, P.E. Savage
 
 ## **PREPRINTS**
 
-(#emph[n] = 5)
+(#emph[n] = 6)
+
+
+
+## **Collective creativity in hybrid societies**
+
+2026
+
+M. Youngblood, K. Mudd, M. Anglada-Tort, C. Jones, E. Miu, D. Omigie, M. Schedel
+
+[https://doi.org/10.48550/arXiv.2609.02620](https://doi.org/https://doi.org/10.48550/arXiv.2609.02620) (arXiv)
 
 
 
@@ -535,6 +545,8 @@ M. Youngblood
 # Presentations
 
 ## **Invited Talks**
+
+- Stony Brook University, Institute for Advanced Computational Science (Stony Brook, NY, August 2026): Collective creativity in digital culture
 
 - Animal Behavior Society, Plenary Session on Cultural Evolution (Cincinnati, OH, July 2026): Using computation to accelerate research on the cultural evolution of vocal communication
 
