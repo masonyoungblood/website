@@ -78,7 +78,7 @@
   date: datetime(
     year: 2026,
     month: 9,
-    day: 3,
+    day: 6,
   ),
 )
 
@@ -802,7 +802,24 @@
   [
   ],
   main-column-second-row: [
-    (#emph[n] = 6)
+    (#emph[n] = 7)
+    
+  ],
+)
+
+#regular-entry(
+  [
+    #strong[Simulation-based inference for cultural evolution: a tutorial with baby name data]
+    
+  ],
+  [
+    2026
+    
+  ],
+  main-column-second-row: [
+    M. Youngblood
+    
+    #link("https://doi.org/https://doi.org/10.31235/osf.io/c5q2h_v1")[https:\/\/doi.org\/10.31235\/osf.io\/c5q2h\_v1] (SocArXiv)
     
   ],
 )

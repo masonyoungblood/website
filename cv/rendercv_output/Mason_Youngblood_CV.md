@@ -432,7 +432,17 @@ M. Youngblood, Y. Ozaki, P.E. Savage
 
 ## **PREPRINTS**
 
-(#emph[n] = 6)
+(#emph[n] = 7)
+
+
+
+## **Simulation-based inference for cultural evolution: a tutorial with baby name data**
+
+2026
+
+M. Youngblood
+
+[https://doi.org/10.31235/osf.io/c5q2h_v1](https://doi.org/https://doi.org/10.31235/osf.io/c5q2h_v1) (SocArXiv)
 
 
 

@@ -360,7 +360,14 @@ cv:
       doi: https://doi.org/10.1093/oxfordhb/9780198869252.013.42
     - title: PREPRINTS
       authors:
-      - (*n* = 6)
+      - (*n* = 7)
+    - title: 'Simulation-based inference for cultural evolution: a tutorial with baby
+        name data'
+      authors:
+      - M. Youngblood
+      journal: SocArXiv
+      date: '2026'
+      doi: https://doi.org/10.31235/osf.io/c5q2h_v1
     - title: Collective creativity in hybrid societies
       authors:
       - M. Youngblood

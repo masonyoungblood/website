@@ -56,6 +56,8 @@
 
 ## Preprints
 
+* **Youngblood, M.** (2026). Simulation-based inference for cultural evolution: a tutorial with baby name data. *SocArXiv*. [https://doi.org/10.31235/osf.io/c5q2h_v1](https://doi.org/10.31235/osf.io/c5q2h_v1)
+
 * **Youngblood, M.**, Mudd, K., Anglada-Tort, M., Jones, C., Miu, E., Omigie, D., & Schedel, M. (2026). Collective creativity in hybrid societies. *arXiv*. [https://doi.org/10.48550/arXiv.2609.02620](https://doi.org/10.48550/arXiv.2609.02620)
 
 * **Youngblood, M.**, Nusz, J., & Simon, J. (2026). Dynamics of collective creativity in AI art competitions. *arXiv*. [https://doi.org/10.48550/arXiv.2605.17141](https://doi.org/10.48550/arXiv.2605.17141)
