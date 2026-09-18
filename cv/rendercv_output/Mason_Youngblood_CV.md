@@ -1,18 +1,28 @@
 # Mason Youngblood's CV
 
 - Phone: +1 843 307 7074
-- Email: [masonyoungblood@gmail.com](mailto:masonyoungblood@gmail.com)
+- Email: [mason@animalculture.org](mailto:mason@animalculture.org)
 - Location: Brooklyn, NY
-- Website: [masonyoungblood.com](https://masonyoungblood.com/)
+- Website: [[HttpUrl('masonyoungblood.com'), HttpUrl('animalculture.org')]]([HttpUrl('https://masonyoungblood.com/'), HttpUrl('https://animalculture.org/')])
 
 
 # Positions
+
+## **Animal Culture Observatory**, 
+
+Brooklyn, NY
+
+2026 – present
+
+#summary[Executive Director]
+
+
 
 ## **Stony Brook University, Institute for Advanced Computational Science**, 
 
 Stony Brook, NY
 
-2023 – present
+2023 – 2026
 
 #summary[Postdoctoral Fellow]
 
@@ -556,6 +566,10 @@ M. Youngblood
 
 ## **Invited Talks**
 
+- Stony Brook University, Postdoc LINK Symposium (Stony Brook, NY, September 2026): How to confuse a selection committee (while building a sustainable career as an interdisciplinary scholar)
+
+- Stony Brook University, Postdoc LINK Symposium (Stony Brook, NY, September 2026): Complexity and efficiency in animal communication
+
 - Stony Brook University, Institute for Advanced Computational Science (Stony Brook, NY, August 2026): Collective creativity in digital culture
 
 - Animal Behavior Society, Plenary Session on Cultural Evolution (Cincinnati, OH, July 2026): Using computation to accelerate research on the cultural evolution of vocal communication
@@ -857,6 +871,8 @@ Odense, DK
 
 
 ## **Event Organizing**
+
+- Creativity & AI Brainstorming Event \[2-Day Workshop\] (Southampton, NY): Sept 2026
 
 - Collective Creativity \[3-Day Workshop\] (Stony Brook, NY): Apr 2025
 

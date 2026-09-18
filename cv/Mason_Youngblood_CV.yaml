@@ -1,16 +1,26 @@
 cv:
   name: Mason Youngblood
   location: Brooklyn, NY
-  email: masonyoungblood@gmail.com
+  email: mason@animalculture.org
   phone: +1-843-307-7074
-  website: https://masonyoungblood.com/
+  website:
+  - https://masonyoungblood.com/
+  - https://animalculture.org/
   sections:
     positions:
+    - company: Animal Culture Observatory
+      position: ''
+      date: null
+      start_date: 2026-09
+      end_date: null
+      location: Brooklyn, NY
+      summary: Executive Director
+      highlights: null
     - company: Stony Brook University, Institute for Advanced Computational Science
       position: ''
       date: null
       start_date: 2023-08
-      end_date: null
+      end_date: 2026-09
       location: Stony Brook, NY
       summary: Postdoctoral Fellow
       highlights: null
@@ -567,6 +577,11 @@ cv:
       location: null
       summary: null
       highlights:
+      - 'Stony Brook University, Postdoc LINK Symposium (Stony Brook, NY, September
+        2026): How to confuse a selection committee (while building a sustainable
+        career as an interdisciplinary scholar)'
+      - 'Stony Brook University, Postdoc LINK Symposium (Stony Brook, NY, September
+        2026): Complexity and efficiency in animal communication'
       - 'Stony Brook University, Institute for Advanced Computational Science (Stony
         Brook, NY, August 2026): Collective creativity in digital culture'
       - 'Animal Behavior Society, Plenary Session on Cultural Evolution (Cincinnati,
@@ -907,6 +922,8 @@ cv:
       location: null
       summary: null
       highlights:
+      - 'Creativity & AI Brainstorming Event [2-Day Workshop] (Southampton, NY): Sept
+        2026'
       - 'Collective Creativity [3-Day Workshop] (Stony Brook, NY): Apr 2025'
       - 'ESLR and Cultural Evolution Society Seminar Series [Weekly] (Virtual): May-June
         2024'
@@ -1159,7 +1176,7 @@ design:
       show_icons: true
       display_urls_instead_of_usernames: false
       separator: ''
-      space_between_connections: 0.5cm
+      space_between_connections: 0.3cm
   section_titles:
     type: with_partial_line
     line_thickness: 0.5pt

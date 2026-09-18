@@ -54,7 +54,7 @@
   header-connections-show-icons: true,
   header-connections-display-urls-instead-of-usernames: false,
   header-connections-separator: "",
-  header-connections-space-between-connections: 0.5cm,
+  header-connections-space-between-connections: 0.3cm,
   section-titles-type: "with_partial_line",
   section-titles-line-thickness: 0.5pt,
   section-titles-space-above: 0.5cm,
@@ -78,7 +78,7 @@
   date: datetime(
     year: 2026,
     month: 9,
-    day: 6,
+    day: 18,
   ),
 )
 
@@ -87,13 +87,31 @@
 
 #connections(
   [#connection-with-icon("location-dot")[Brooklyn, NY]],
-  [#link("mailto:masonyoungblood@gmail.com", icon: false, if-underline: false, if-color: false)[#connection-with-icon("envelope")[masonyoungblood\@gmail.com]]],
+  [#link("mailto:mason@animalculture.org", icon: false, if-underline: false, if-color: false)[#connection-with-icon("envelope")[mason\@animalculture.org]]],
   [#link("tel:+1-843-307-7074", icon: false, if-underline: false, if-color: false)[#connection-with-icon("phone")[(843) 307-7074]]],
   [#link("https://masonyoungblood.com/", icon: false, if-underline: false, if-color: false)[#connection-with-icon("link")[masonyoungblood.com]]],
+  [#link("https://animalculture.org/", icon: false, if-underline: false, if-color: false)[#connection-with-icon("link")[animalculture.org]]],
 )
 
 
 == Positions
+
+#regular-entry(
+  [
+    #strong[Animal Culture Observatory], 
+    
+    #summary[Executive Director]
+    
+  ],
+  [
+    Brooklyn, NY
+    
+    2026 – present
+    
+  ],
+  main-column-second-row: [
+  ],
+)
 
 #regular-entry(
   [
@@ -105,7 +123,7 @@
   [
     Stony Brook, NY
     
-    2023 – present
+    2023 – 2026
     
   ],
   main-column-second-row: [
@@ -1017,6 +1035,10 @@
   [
   ],
   main-column-second-row: [
+    - Stony Brook University, Postdoc LINK Symposium (Stony Brook, NY, September 2026): How to confuse a selection committee (while building a sustainable career as an interdisciplinary scholar)
+    
+    - Stony Brook University, Postdoc LINK Symposium (Stony Brook, NY, September 2026): Complexity and efficiency in animal communication
+    
     - Stony Brook University, Institute for Advanced Computational Science (Stony Brook, NY, August 2026): Collective creativity in digital culture
     
     - Animal Behavior Society, Plenary Session on Cultural Evolution (Cincinnati, OH, July 2026): Using computation to accelerate research on the cultural evolution of vocal communication
@@ -1436,6 +1458,8 @@
   [
   ],
   main-column-second-row: [
+    - Creativity & AI Brainstorming Event \[2-Day Workshop\] (Southampton, NY): Sept 2026
+    
     - Collective Creativity \[3-Day Workshop\] (Stony Brook, NY): Apr 2025
     
     - ESLR and Cultural Evolution Society Seminar Series \[Weekly\] (Virtual): May-June 2024
